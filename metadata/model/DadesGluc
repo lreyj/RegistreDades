@@ -1,0 +1,73 @@
+{
+    "id": "ExtBox1-ext-gen9936",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "associations": 0.4050391656346619,
+        "fields": 0.02426494169048965,
+        "proxy": 0.30183001002296805,
+        "validations": 0.2270026351325214,
+        "designer|userClassName": "DadesGluc",
+        "designer|userAlias": "glucosa",
+        "functionsRefGroup": 0.5671633081510663
+    },
+    "customConfigs": [],
+    "designerId": "ec63eda9-cbea-42bf-bcf7-5e82b402a515",
+    "$viewOrder": 2,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen10217",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "convert": 0.900538086425513,
+                "name": "id",
+                "designer|userClassName": "MyField7"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen10438",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "convert": 0.4470696309581399,
+                "name": "Data",
+                "type": "date",
+                "designer|userClassName": "MyField8"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen10709",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "convert": 0.7052617999725044,
+                "name": "Glucosa",
+                "designer|userClassName": "MyField9"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

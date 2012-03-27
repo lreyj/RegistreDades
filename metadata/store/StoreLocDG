@@ -1,0 +1,46 @@
+{
+    "id": "ExtBox1-ext-gen12292",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "DadesGluc",
+        "storeId": "StoreDadesG",
+        "fields": 0.36727762361988425,
+        "proxy": 0.25784764997661114,
+        "filters": 0.6875057318247855,
+        "grouper": 0.11999446409754455,
+        "sorters": 0.8215384960640222,
+        "eventsRefGroup": 0.03276665206067264,
+        "designer|userClassName": "StoreLocDG",
+        "designer|userAlias": "StoreDadesG",
+        "functionsRefGroup": 0.11395266489125788
+    },
+    "customConfigs": [],
+    "designerId": "dc461447-88d3-4c42-a51b-563ce3dcf08c",
+    "$viewOrder": 2,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen12566",
+            "type": "localstorageproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "readerRefGroup": 0.2863017695490271,
+                "writerRefGroup": 0.7809666593093425,
+                "eventsRefGroup": 0.920156198553741,
+                "id": "proxyLocalDG",
+                "designer|userClassName": "MyLocalStorageProxy2"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

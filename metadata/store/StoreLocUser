@@ -1,0 +1,46 @@
+{
+    "id": "ExtBox1-ext-gen10931",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Usuari",
+        "storeId": "MyStore",
+        "fields": 0.2718214588239789,
+        "proxy": 0.8368841742631048,
+        "filters": 0.593412833288312,
+        "grouper": 0.16564532718621194,
+        "sorters": 0.1600042199715972,
+        "eventsRefGroup": 0.6244059370364994,
+        "designer|userClassName": "StoreLocUser",
+        "designer|userAlias": "storeUsuari",
+        "functionsRefGroup": 0.27974852570332587
+    },
+    "customConfigs": [],
+    "designerId": "168f60bc-6d4a-4871-ac77-5f41ea1c6afc",
+    "$viewOrder": 0,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen11209",
+            "type": "localstorageproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "readerRefGroup": 0.4481600208673626,
+                "writerRefGroup": 0.1305827652104199,
+                "eventsRefGroup": 0.5181339511182159,
+                "id": "proxyLocalUsr",
+                "designer|userClassName": "MyLocalStorageProxy"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "id": "ExtBox1-ext-gen7403",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "actionsRefGroup": 0.8313407744280994,
+        "models": [
+            "Usuari",
+            "DadesPress",
+            "DadesGluc"
+        ],
+        "refsRefGroup": 0.7270403611473739,
+        "stores": [
+            "StoreLocUser",
+            "StoreLocDP",
+            "StoreLocDG"
+        ],
+        "beforeFiltersRefGroup": 0.022194365272298455,
+        "designer|launch": "",
+        "routesRefGroup": 0.2571923064533621,
+        "eventsRefGroup": 0.33946144091896713,
+        "name": "MyApp",
+        "viewport": 0.2689204749185592,
+        "functionsRefGroup": 0.5650920707266778
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "expanded": true
+}

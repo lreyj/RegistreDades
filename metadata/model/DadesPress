@@ -1,0 +1,91 @@
+{
+    "id": "ExtBox1-ext-gen8547",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "associations": 0.8324462727177888,
+        "fields": 0.5903707372490317,
+        "proxy": 0.39001529733650386,
+        "validations": 0.10221925005316734,
+        "designer|userClassName": "DadesPress",
+        "designer|userAlias": "pressio",
+        "functionsRefGroup": 0.20267934794537723
+    },
+    "customConfigs": [],
+    "designerId": "23189ef6-78fd-4c29-8fc8-12fd37bbfdb3",
+    "$viewOrder": 1,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen8906",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "convert": 0.9611620751675218,
+                "name": "id",
+                "designer|userClassName": "MyField3"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen9133",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "convert": 0.5045948158949614,
+                "name": "minima",
+                "type": "auto",
+                "designer|userClassName": "MyField4"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen9402",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "convert": 0.04279717383906245,
+                "name": "maxima",
+                "type": "auto",
+                "designer|userClassName": "MyField5"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen9679",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "convert": 0.7777751774992794,
+                "name": "Data",
+                "type": "date",
+                "designer|userClassName": "MyField6"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

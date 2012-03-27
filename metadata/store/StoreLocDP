@@ -1,0 +1,46 @@
+{
+    "id": "ExtBox1-ext-gen12132",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "DadesPress",
+        "storeId": "StoreDadesP",
+        "fields": 0.05511844879947603,
+        "proxy": 0.48590587289072573,
+        "filters": 0.3287995499558747,
+        "grouper": 0.21375706885010004,
+        "sorters": 0.0034706341102719307,
+        "eventsRefGroup": 0.6751509502064437,
+        "designer|userClassName": "StoreLocDP",
+        "designer|userAlias": "StoreDadesP",
+        "functionsRefGroup": 0.5915078280959278
+    },
+    "customConfigs": [],
+    "designerId": "811c22bc-db80-4f8a-bc9b-6164081e39f8",
+    "$viewOrder": 1,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen12464",
+            "type": "localstorageproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "readerRefGroup": 0.6097152885049582,
+                "writerRefGroup": 0.01775213936343789,
+                "eventsRefGroup": 0.13855310739018023,
+                "id": "proxyLocalDP",
+                "designer|userClassName": "MyLocalStorageProxy1"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
