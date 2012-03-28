@@ -15,7 +15,7 @@
             ]
         },
 		{
-            "text": "Opcions",
+            "text": "Configuraci&oacute;",
             "items": [
                 { "text": "Dades Usuari", "leaf": true },
                 { "text": "Detalls", "leaf": true }
