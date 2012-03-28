@@ -13,7 +13,7 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.view.PanelPrincipal', {
+Ext.define('RegCr.view.PanelPrincipal', {
     extend: 'Ext.navigation.View',
     alias: 'widget.PanPrinc',
 
@@ -51,27 +51,28 @@ Ext.define('MyApp.view.PanelPrincipal', {
         if (record.get('text')=='Detalls'){
             var tabPanel = Ext.create('Ext.Panel', {
                 title: 'Registre cr&ograve;nics',
+                cls: 'home',
                 styleHtmlContent:true,
                 items: [
                 {
                     html: [
                     "<h2>Registre de dades per pacients Cr&ograve;nics</h2><br>",
                     "Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0<br>",
-                    "<br><br> Autor: Lluis Rey",
-                    "<br>Coordinador: ..."
+                    "<br><br> Autor: Lluis Rey Junquera",
+                    "<br>Coordinador: Carlos Sanchez Rosa"
                     ].join("")
                 }
                 ]
             });
         }
-        else if (record.get('text')=='Registrar'){
+        else if (record.get('text')=='Registrar Pressi&oacute;'){
             var tabPanel= Ext.create('Ext.Panel', {
-                title: 'Panel dinamic prova...',
+                title: 'Registre de Pressi&oacute;',
                 items: [
                 {
                     xtype:'datepickerfield',
-                    name:'Fecha',
-                    label:'Fecha',
+                    name:'Data',
+                    label:'Data',
                     dateFormat: 'd/m/Y',
                     picker: { yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear()},
                     value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}
@@ -96,13 +97,107 @@ Ext.define('MyApp.view.PanelPrincipal', {
                 },		
                 {
                     xtype: 'button',
-                    text: 'Envia',
+                    text: 'Ok',
                     ui: 'confirm',
                     handler: function(){
                         this.up('contactform').submit();
                     }
                 }
                 ]
+            });
+        }
+        else if (record.get('text')=='Registrar Glucosa'){
+            var tabPanel= Ext.create('Ext.Panel', {
+                title: 'Registre de Pressi&oacute;',
+                items: [
+                {
+                    xtype:'datepickerfield',
+                    name:'Data',
+                    label:'Data',
+                    dateFormat: 'd/m/Y',
+                    picker: { 
+                        yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),
+                        slotOrder: ['day', 'month', 'year']
+                    },
+                    value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}
+                },
+                {
+                    xtype:'spinnerfield',
+                    name:'Glucosa',
+                    label:'Glucosa',
+                    minValue: 20,
+                    maxValue: 500,
+                    increment: 1,
+                    cycle: true
+                },
+                {
+                    xtype: 'button',
+                    text: 'Ok',
+                    ui: 'confirm',
+                    handler: function(){
+                        this.up('contactform').submit();
+                    }
+                }
+                ]
+            });
+        }
+        else if (record.get('text')=='Dades Pacient'){
+            var tabPanel= Ext.create('Ext.Panel', {
+                title: 'Dades Personals',
+
+                items: [
+                {
+                    xtype: 'fieldset',
+                    title: 'Dades',
+                    instructions: 'El codi es el seu Identificador de pacient a la Cl&iacute;nica.<br>L\'adreça de correu pot ser necess&agrave;ria per contactar amb vost&egrave;',
+                    items: [
+                    {
+                        xtype: 'numberfield',
+                        label: 'Codi',
+                        name: 'Codi'
+                    },
+                    {
+                        xtype: 'textfield',
+                        itemId: 'Nom',
+                        label: 'Nom'
+                    },
+                    {
+                        xtype: 'emailfield',
+                        label: 'Correu',
+                        placeHolder: 'email@exemple.com'
+                    },
+                    {
+                        xtype: 'togglefield',
+                        itemId: 'PressioTgl',
+                        label: 'Pressi&oacute;',
+                        value: 1
+                    },
+                    {
+                        xtype: 'togglefield',
+                        itemId: 'GlucosaTgl',
+                        label: 'Glucosa',
+                        value: 1
+                    },
+                    {
+                        xtype: 'button',
+                        itemId: 'dadesbutton',
+                        ui: 'confirm-round',
+                        text: 'Desar'
+                    }
+                    ]
+                }
+                ],
+                listeners: [
+                {
+                    fn: 'onMybuttonTap',
+                    event: 'tap',
+                    delegate: '#dadesbutton'
+                }
+                ],
+                onMybuttonTap: function(button, e, options) {
+                    console.log('Desar dades d\'usuari');
+                }
+
             });
         }
         this.push(tabPanel);

@@ -13,16 +13,16 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.store.MIniciStore', {
+Ext.define('RegCr.store.MIniciStore', {
     extend: 'Ext.data.TreeStore',
     alias: 'store.StoreMenu',
     requires: [
-        'MyApp.model.ListItems'
+        'RegCr.model.ListItems'
     ],
 
     config: {
         autoLoad: true,
-        model: 'MyApp.model.ListItems',
+        model: 'RegCr.model.ListItems',
         storeId: 'MenuList',
         root: 'item',
         proxy: {

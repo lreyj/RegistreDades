@@ -13,7 +13,7 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.model.ListItems', {
+Ext.define('RegCr.model.ListItems', {
     extend: 'Ext.data.Model',
     alias: 'model.listItem',
     config: {

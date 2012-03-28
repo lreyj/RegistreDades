@@ -13,15 +13,15 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.store.StoreLocDG', {
+Ext.define('RegCr.store.StoreLocDG', {
     extend: 'Ext.data.Store',
     alias: 'store.StoreDadesG',
     requires: [
-        'MyApp.model.DadesGluc'
+        'RegCr.model.DadesGluc'
     ],
 
     config: {
-        model: 'MyApp.model.DadesGluc',
+        model: 'RegCr.model.DadesGluc',
         storeId: 'StoreDadesG',
         proxy: {
             type: 'localstorage',

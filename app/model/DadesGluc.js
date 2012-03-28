@@ -13,7 +13,7 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.model.DadesGluc', {
+Ext.define('RegCr.model.DadesGluc', {
     extend: 'Ext.data.Model',
     alias: 'model.glucosa',
     config: {

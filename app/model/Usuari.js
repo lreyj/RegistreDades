@@ -13,7 +13,7 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.model.Usuari', {
+Ext.define('RegCr.model.Usuari', {
     extend: 'Ext.data.Model',
     alias: 'model.Usuari',
     config: {
@@ -29,6 +29,14 @@ Ext.define('MyApp.model.Usuari', {
             {
                 name: 'email',
                 type: 'string'
+            },
+            {
+                name: 'pressio',
+                type: 'int'
+            },
+            {
+                name: 'glucosa',
+                type: 'int'
             }
         ]
     }

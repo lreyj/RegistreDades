@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.1685762230772525,
-        "fields": 0.1692754456307739,
-        "proxy": 0.4715914342086762,
-        "validations": 0.9972052564844489,
+        "associations": 0.8139832040760666,
+        "fields": 0.02714287373237312,
+        "proxy": 0.726330328034237,
+        "validations": 0.8146597514860332,
         "designer|userClassName": "ListItems",
         "designer|userAlias": "listItem",
-        "functionsRefGroup": 0.6218751980923116
+        "functionsRefGroup": 0.386416187742725
     },
     "customConfigs": [],
     "designerId": "73ae86d1-7348-46bc-a44c-21ac1e67f9f9",
@@ -29,10 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.6130378821399063,
+                "convert": 0.4026323596481234,
                 "name": "text",
                 "designer|userClassName": "MyField10",
-                "functionsRefGroup": 0.0637373726349324
+                "functionsRefGroup": 0.5483069587498903
             },
             "customConfigs": [],
             "expanded": true

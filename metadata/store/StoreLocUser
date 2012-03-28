@@ -9,20 +9,20 @@
     "userConfig": {
         "model": "Usuari",
         "storeId": "StLocUser",
-        "fields": 0.8817043569870293,
-        "proxy": 0.8498327312991023,
-        "filters": 0.09827506518922746,
-        "grouper": 0.2853043070062995,
-        "sorters": 0.7190031914506108,
-        "eventsRefGroup": 0.3281039430294186,
+        "fields": 0.04480208712629974,
+        "proxy": 0.18307806202210486,
+        "filters": 0.974883921444416,
+        "grouper": 0.6256188417319208,
+        "sorters": 0.8149683161173016,
+        "eventsRefGroup": 0.8370928417425603,
         "designer|userClassName": "StoreLocUser",
         "designer|userAlias": "storeUsuari",
-        "functionsRefGroup": 0.683057390153408
+        "functionsRefGroup": 0.6270973980426788
     },
     "customConfigs": [],
     "designerId": "168f60bc-6d4a-4871-ac77-5f41ea1c6afc",
     "$viewOrder": 0,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen11209",
@@ -33,12 +33,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.5952309141866863,
-                "writerRefGroup": 0.3945315333548933,
-                "eventsRefGroup": 0.7544378119055182,
+                "readerRefGroup": 0.9927932764403522,
+                "writerRefGroup": 0.2306788028217852,
+                "eventsRefGroup": 0.5272029102779925,
                 "id": "proxyLocalUsr",
                 "designer|userClassName": "MyLocalStorageProxy",
-                "functionsRefGroup": 0.32675220910459757
+                "functionsRefGroup": 0.0583165951538831
             },
             "customConfigs": [],
             "expanded": true

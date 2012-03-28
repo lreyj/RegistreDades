@@ -1,0 +1,171 @@
+{
+    "id": "ExtBox1-ext-gen5709",
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemId": "dadespacient",
+        "ui": "light",
+        "eventsRefGroup": 0.942377203842625,
+        "navigationBarRefGroup": 0.9279284740332514,
+        "designer|userClassName": "dadespacient",
+        "designer|userAlias": "DadesPacient",
+        "functionsRefGroup": 0.9438999404665083
+    },
+    "customConfigs": [],
+    "designerId": "65f0db32-52a8-432a-8fb2-ea355884ccc8",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen6499",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "eventsRefGroup": 0.5938242946285754,
+                "instructions": "el codi",
+                "title": "Dades",
+                "designer|userClassName": "MyFieldSet",
+                "functionsRefGroup": 0.6301176126580685
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen7746",
+                    "type": "numberfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "eventsRefGroup": 0.7791261600796133,
+                        "label": "Codi",
+                        "name": "Codi",
+                        "designer|userClassName": "MyNumberField",
+                        "functionsRefGroup": 0.9824184121098369
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen6515",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "Nom",
+                        "eventsRefGroup": 0.9258689789567143,
+                        "label": "Nom",
+                        "designer|userClassName": "MyTextField1",
+                        "functionsRefGroup": 0.8280859719961882
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen7426",
+                    "type": "emailfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "eventsRefGroup": 0.3490262869745493,
+                        "label": "Correu",
+                        "placeHolder": "email@exemple.com",
+                        "designer|userClassName": "MyEmailField",
+                        "functionsRefGroup": 0.04252768587321043
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen8977",
+                    "type": "togglefield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "PressioTgl",
+                        "eventsRefGroup": 0.39272891776636243,
+                        "label": "Pressi&oacute;",
+                        "value": 1,
+                        "designer|userClassName": "MyToggleField",
+                        "functionsRefGroup": 0.5733965286053717
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen9816",
+                    "type": "togglefield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "GlucosaTgl",
+                        "eventsRefGroup": 0.37933975947089493,
+                        "label": "Glucosa",
+                        "value": 1,
+                        "designer|userClassName": "MyToggleField1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen13033",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "dadesbutton",
+                        "ui": "confirm-round",
+                        "eventsRefGroup": 0.6544375296216458,
+                        "text": "Desar",
+                        "designer|userClassName": "MyButton"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen13564",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onMybuttonTap",
+                                "name": "tap",
+                                "designer|userClassName": "onMybuttonTap"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

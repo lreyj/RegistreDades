@@ -13,7 +13,7 @@
  * Do NOT hand edit this file.
  */
 
-Ext.define('MyApp.model.DadesPress', {
+Ext.define('RegCr.model.DadesPress', {
     extend: 'Ext.data.Model',
     alias: 'model.pressio',
     config: {

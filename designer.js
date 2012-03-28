@@ -33,12 +33,13 @@ Ext.application({
     ],
 
     views: [
-        'PanelPrincipal'
+        'PanelPrincipal',
+        'dadespacient'
     ],
 
-    name: 'MyApp',
+    name: 'RegCr',
 
     launch: function() {
-        Ext.create('MyApp.view.PanelPrincipal', {fullscreen: true});
+        Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});
     }
 });
