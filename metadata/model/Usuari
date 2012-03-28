@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.5283837479073554,
-        "fields": 0.8921995640266687,
-        "proxy": 0.9823687747120857,
-        "validations": 0.16571978898718953,
+        "associations": 0.5664407766889781,
+        "fields": 0.44668331532739103,
+        "proxy": 0.18380194972269237,
+        "validations": 0.020343713462352753,
         "designer|userClassName": "Usuari",
         "designer|userAlias": "Usuari",
-        "functionsRefGroup": 0.4234986500814557
+        "functionsRefGroup": 0.6417133752256632
     },
     "customConfigs": [],
     "designerId": "16181103-af94-43b4-94a8-5df26f5c93d4",
@@ -29,11 +29,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.6424419074319303,
+                "convert": 0.36558955209329724,
                 "name": "id",
                 "type": "int",
                 "designer|userClassName": "MyField",
-                "functionsRefGroup": 0.9502008764538914
+                "functionsRefGroup": 0.6803020881488919
             },
             "customConfigs": [],
             "expanded": true
@@ -47,11 +47,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.056782776955515146,
+                "convert": 0.31510041933506727,
                 "name": "nom",
                 "type": "string",
                 "designer|userClassName": "MyField1",
-                "functionsRefGroup": 0.39260096312500536
+                "functionsRefGroup": 0.18127129971981049
             },
             "customConfigs": [],
             "expanded": true
@@ -65,11 +65,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.7642552454490215,
+                "convert": 0.1367869875393808,
                 "name": "email",
                 "type": "string",
                 "designer|userClassName": "MyField2",
-                "functionsRefGroup": 0.43101901141926646
+                "functionsRefGroup": 0.2876181558240205
             },
             "customConfigs": [],
             "expanded": true
