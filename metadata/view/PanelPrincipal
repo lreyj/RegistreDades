@@ -1,0 +1,103 @@
+{
+    "id": "ExtBox1-ext-gen5943",
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "height": null,
+        "ui": "light",
+        "eventsRefGroup": 0.048674788791686296,
+        "defaultBackButtonText": "'Enrere'",
+        "navigationBarRefGroup": 0.5324220869224519,
+        "designer|userClassName": "PanelPrincipal",
+        "designer|userAlias": "PanPrinc",
+        "functionsRefGroup": 0.5527022019959986
+    },
+    "customConfigs": [],
+    "designerId": "5e0dc7e9-6761-473c-8fe7-a6a7cb52cdfe",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen12229",
+            "type": "nestedlist",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": null,
+                "height": 300,
+                "itemId": "mynestedlist",
+                "eventsRefGroup": 0.7885393269825727,
+                "store": "MenuList",
+                "title": "Opcions",
+                "toolbarRefGroup": 0.5373416063375771,
+                "designer|userClassName": "MyNestedList",
+                "functionsRefGroup": 0.9610267712268978,
+                "activeItem": 1
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen11329",
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onMynestedlistLeafItemTap",
+                        "implHandler": "\n\nif (record.get('text')=='Detalls'){\n    var tabPanel = Ext.create('Ext.Panel', {\n        title: 'Registre cr&ograve;nics',\n        styleHtmlContent:true,\n        items: [\n        {\n            html: '<br>Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0'\n        }\n        ]\n    });\n    this.push(tabPanel);\n}\n",
+                        "name": "leafitemtap",
+                        "designer|userClassName": "onMynestedlistLeafItemTap"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen3085",
+                    "type": "toolbar",
+                    "reference": {
+                        "name": "toolbar",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 40,
+                        "eventsRefGroup": 0.07722409325651824,
+                        "designer|userClassName": "MyToolbar"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen9883",
+            "type": "navigationbar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 40,
+                "tpl": null,
+                "eventsRefGroup": 0.6347431608010083,
+                "designer|userClassName": "MyNavigationBar",
+                "functionsRefGroup": 0.6331562767736614,
+                "title": null
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

@@ -1,11 +1,11 @@
 {
     "name": "RegistreDades",
     "settings": {
-        "urlPrefix": "",
+        "urlPrefix": "http://localhost/touch/registredades",
         "directAPI": "",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
-        "exportPath": "C:/xampp/htdocs/touch/RegistreDades",
+        "exportPath": "C:/xampp/htdocs/touch/StoreTest",
         "extPath": "http://extjs.cachefly.net/touch/sencha-touch-2.0.0/",
         "senchaIoKey": "",
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
@@ -68,6 +68,30 @@
                 "app/store/StoreLocDG.js"
             ],
             "className": "StoreLocDG"
+        },
+        "02966620-57bd-4906-b5a0-8027e09d5c12": {
+            "paths": [
+                "metadata/store/MIniciStore",
+                "app/store/override/MIniciStore.js",
+                "app/store/MIniciStore.js"
+            ],
+            "className": "MIniciStore"
+        },
+        "73ae86d1-7348-46bc-a44c-21ac1e67f9f9": {
+            "paths": [
+                "metadata/model/ListItems",
+                "app/model/override/ListItems.js",
+                "app/model/ListItems.js"
+            ],
+            "className": "ListItems"
+        },
+        "5e0dc7e9-6761-473c-8fe7-a6a7cb52cdfe": {
+            "paths": [
+                "metadata/view/PanelPrincipal",
+                "app/view/override/PanelPrincipal.js",
+                "app/view/PanelPrincipal.js"
+            ],
+            "className": "PanelPrincipal"
         }
     },
     "expandedState": {

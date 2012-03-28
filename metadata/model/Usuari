@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.03189154155552387,
-        "fields": 0.4321001621428877,
-        "proxy": 0.9786729719489813,
-        "validations": 0.7143000573851168,
+        "associations": 0.5283837479073554,
+        "fields": 0.8921995640266687,
+        "proxy": 0.9823687747120857,
+        "validations": 0.16571978898718953,
         "designer|userClassName": "Usuari",
         "designer|userAlias": "Usuari",
-        "functionsRefGroup": 0.4852672233246267
+        "functionsRefGroup": 0.4234986500814557
     },
     "customConfigs": [],
     "designerId": "16181103-af94-43b4-94a8-5df26f5c93d4",
@@ -29,10 +29,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.7350936231669039,
+                "convert": 0.6424419074319303,
                 "name": "id",
                 "type": "int",
-                "designer|userClassName": "MyField"
+                "designer|userClassName": "MyField",
+                "functionsRefGroup": 0.9502008764538914
             },
             "customConfigs": [],
             "expanded": true
@@ -46,10 +47,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.8090413962490857,
+                "convert": 0.056782776955515146,
                 "name": "nom",
                 "type": "string",
-                "designer|userClassName": "MyField1"
+                "designer|userClassName": "MyField1",
+                "functionsRefGroup": 0.39260096312500536
             },
             "customConfigs": [],
             "expanded": true
@@ -63,10 +65,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.1696192396339029,
+                "convert": 0.7642552454490215,
                 "name": "email",
                 "type": "string",
-                "designer|userClassName": "MyField2"
+                "designer|userClassName": "MyField2",
+                "functionsRefGroup": 0.43101901141926646
             },
             "customConfigs": [],
             "expanded": true

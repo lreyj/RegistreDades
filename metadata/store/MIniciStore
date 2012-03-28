@@ -1,0 +1,66 @@
+{
+    "id": "ExtBox1-ext-gen14445",
+    "type": "treestore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "ListItems",
+        "storeId": "MenuList",
+        "fields": 0.048181133111938834,
+        "proxy": 0.5925744723062962,
+        "filters": 0.6227194983512163,
+        "grouper": 0.1354893429670483,
+        "sorters": 0.15550799458287656,
+        "eventsRefGroup": 0.2533685895614326,
+        "root": "item",
+        "designer|userClassName": "MIniciStore",
+        "designer|userAlias": "StoreMenu",
+        "functionsRefGroup": 0.8986911869142205
+    },
+    "customConfigs": [],
+    "designerId": "02966620-57bd-4906-b5a0-8027e09d5c12",
+    "$viewOrder": 3,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen14452",
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "readerRefGroup": 0.8250176887959242,
+                "writerRefGroup": 0.5892113279551268,
+                "eventsRefGroup": 0.8354345285333693,
+                "url": "menu.json",
+                "designer|userClassName": "MyAjaxProxy",
+                "functionsRefGroup": 0.15454590995796025
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen14459",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "items",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

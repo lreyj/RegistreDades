@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.4050391656346619,
-        "fields": 0.02426494169048965,
-        "proxy": 0.30183001002296805,
-        "validations": 0.2270026351325214,
+        "associations": 0.08874331065453589,
+        "fields": 0.829642524709925,
+        "proxy": 0.4622977524995804,
+        "validations": 0.6952403075993061,
         "designer|userClassName": "DadesGluc",
         "designer|userAlias": "glucosa",
-        "functionsRefGroup": 0.5671633081510663
+        "functionsRefGroup": 0.5137751852162182
     },
     "customConfigs": [],
     "designerId": "ec63eda9-cbea-42bf-bcf7-5e82b402a515",
@@ -29,9 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.900538086425513,
+                "convert": 0.5292871033307165,
                 "name": "id",
-                "designer|userClassName": "MyField7"
+                "designer|userClassName": "MyField7",
+                "functionsRefGroup": 0.6476399952080101
             },
             "customConfigs": [],
             "expanded": true
@@ -45,10 +46,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.4470696309581399,
+                "convert": 0.1938812006264925,
                 "name": "Data",
                 "type": "date",
-                "designer|userClassName": "MyField8"
+                "designer|userClassName": "MyField8",
+                "functionsRefGroup": 0.9983203157316893
             },
             "customConfigs": [],
             "expanded": true
@@ -62,9 +64,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.7052617999725044,
+                "convert": 0.1616365034133196,
                 "name": "Glucosa",
-                "designer|userClassName": "MyField9"
+                "designer|userClassName": "MyField9",
+                "functionsRefGroup": 0.6883005206473172
             },
             "customConfigs": [],
             "expanded": true

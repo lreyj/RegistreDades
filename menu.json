@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "text": "Pressi&oacute;",
+            "items": [
+                { "text": "Registrar", "leaf": true },
+                { "text": "Hist&ograve;ric", "leaf": true }
+            ]
+        },
+        {
+            "text": "Glucosa",
+            "items": [
+                { "text": "Registrar", "leaf": true },
+                { "text": "Hist&ograve;ric", "leaf": true }
+            ]
+        },
+		{
+            "text": "Opcions",
+            "items": [
+                { "text": "Dades Usuari", "leaf": true },
+                { "text": "Detalls", "leaf": true }
+            ]
+        },
+    ]
+}

@@ -7,25 +7,30 @@
     },
     "codeClass": null,
     "userConfig": {
-        "actionsRefGroup": 0.8313407744280994,
+        "actionsRefGroup": 0.6000397666357458,
         "models": [
             "Usuari",
             "DadesPress",
-            "DadesGluc"
+            "DadesGluc",
+            "ListItems"
         ],
-        "refsRefGroup": 0.7270403611473739,
+        "refsRefGroup": 0.7853499071206897,
         "stores": [
             "StoreLocUser",
             "StoreLocDP",
-            "StoreLocDG"
+            "StoreLocDG",
+            "MIniciStore"
         ],
-        "beforeFiltersRefGroup": 0.022194365272298455,
+        "views": [
+            "PanelPrincipal"
+        ],
+        "beforeFiltersRefGroup": 0.05606946302577853,
         "designer|launch": "",
-        "routesRefGroup": 0.2571923064533621,
-        "eventsRefGroup": 0.33946144091896713,
+        "routesRefGroup": 0.9889435940422118,
+        "eventsRefGroup": 0.8169517156202346,
         "name": "MyApp",
-        "viewport": 0.2689204749185592,
-        "functionsRefGroup": 0.5650920707266778
+        "viewport": 0.9741565440781415,
+        "functionsRefGroup": 0.523953304393217
     },
     "customConfigs": [],
     "designerId": "application",

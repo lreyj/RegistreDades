@@ -21,17 +21,24 @@ Ext.application({
     models: [
         'Usuari',
         'DadesPress',
-        'DadesGluc'
+        'DadesGluc',
+        'ListItems'
     ],
 
     stores: [
         'StoreLocUser',
         'StoreLocDP',
-        'StoreLocDG'
+        'StoreLocDG',
+        'MIniciStore'
+    ],
+
+    views: [
+        'PanelPrincipal'
     ],
 
     name: 'MyApp',
 
     launch: function() {
+        Ext.create('MyApp.view.PanelPrincipal', {fullscreen: true});
     }
 });
