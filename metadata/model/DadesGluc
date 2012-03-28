@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.9347727892454714,
-        "fields": 0.6807631927076727,
-        "proxy": 0.11890377406962216,
-        "validations": 0.2366732726804912,
+        "associations": 0.0016280671115964651,
+        "fields": 0.6290601827204227,
+        "proxy": 0.11998321814462543,
+        "validations": 0.2512627609539777,
         "designer|userClassName": "DadesGluc",
         "designer|userAlias": "glucosa",
-        "functionsRefGroup": 0.6152093042619526
+        "functionsRefGroup": 0.03864507866092026
     },
     "customConfigs": [],
     "designerId": "ec63eda9-cbea-42bf-bcf7-5e82b402a515",
@@ -29,10 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.967790107242763,
+                "convert": 0.9648601552471519,
                 "name": "id",
                 "designer|userClassName": "MyField7",
-                "functionsRefGroup": 0.671089744893834
+                "functionsRefGroup": 0.36099359882064164
             },
             "customConfigs": [],
             "expanded": true
@@ -46,11 +46,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.8152721070218831,
+                "convert": 0.9193032924085855,
                 "name": "Data",
                 "type": "date",
                 "designer|userClassName": "MyField8",
-                "functionsRefGroup": 0.5250148568302393
+                "functionsRefGroup": 0.75006282213144
             },
             "customConfigs": [],
             "expanded": true
@@ -64,10 +64,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.5851614377461374,
+                "convert": 0.2611928798723966,
                 "name": "Glucosa",
                 "designer|userClassName": "MyField9",
-                "functionsRefGroup": 0.8532427102327347
+                "functionsRefGroup": 0.9939754894003272
             },
             "customConfigs": [],
             "expanded": true

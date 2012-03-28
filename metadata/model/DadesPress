@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.3876622705720365,
-        "fields": 0.9949445233214647,
-        "proxy": 0.31981818680651486,
-        "validations": 0.6342126016970724,
+        "associations": 0.6341287556570023,
+        "fields": 0.18676599441096187,
+        "proxy": 0.32124204211868346,
+        "validations": 0.05367462360300124,
         "designer|userClassName": "DadesPress",
         "designer|userAlias": "pressio",
-        "functionsRefGroup": 0.4208042682148516
+        "functionsRefGroup": 0.809005320770666
     },
     "customConfigs": [],
     "designerId": "23189ef6-78fd-4c29-8fc8-12fd37bbfdb3",
@@ -29,10 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9130621892400086,
+                "convert": 0.9705917469691485,
                 "name": "id",
                 "designer|userClassName": "MyField3",
-                "functionsRefGroup": 0.4412441945169121
+                "functionsRefGroup": 0.6692133033648133
             },
             "customConfigs": [],
             "expanded": true
@@ -46,11 +46,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.5444786320440471,
+                "convert": 0.6631497340276837,
                 "name": "minima",
                 "type": "auto",
                 "designer|userClassName": "MyField4",
-                "functionsRefGroup": 0.7533360191155225
+                "functionsRefGroup": 0.6825534722302109
             },
             "customConfigs": [],
             "expanded": true
@@ -64,11 +64,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.2069910611025989,
+                "convert": 0.8607278771232814,
                 "name": "maxima",
                 "type": "auto",
                 "designer|userClassName": "MyField5",
-                "functionsRefGroup": 0.31260307249613106
+                "functionsRefGroup": 0.7155178305692971
             },
             "customConfigs": [],
             "expanded": true
@@ -82,11 +82,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.8885335149243474,
+                "convert": 0.9221900280099362,
                 "name": "Data",
                 "type": "date",
                 "designer|userClassName": "MyField6",
-                "functionsRefGroup": 0.09399016434326768
+                "functionsRefGroup": 0.28216961841098964
             },
             "customConfigs": [],
             "expanded": true

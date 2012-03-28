@@ -55,7 +55,7 @@ Ext.define('MyApp.view.PanelPrincipal', {
                 items: [
                 {
                     html: [
-                    "<h2>Registre de dades per pacients cr&ograve;nics</h2><br>",
+                    "<h2>Registre de dades per pacients Cr&ograve;nics</h2><br>",
                     "Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0<br>",
                     "<br><br> Autor: Lluis Rey",
                     "<br>Coordinador: ..."
@@ -64,29 +64,43 @@ Ext.define('MyApp.view.PanelPrincipal', {
                 ]
             });
         }
-        else{
+        else if (record.get('text')=='Registrar'){
             var tabPanel= Ext.create('Ext.Panel', {
                 title: 'Panel dinamic prova...',
                 items: [
                 {
-                    xtype: 'togglefield',
-                    label: 'Toggle'
+                    xtype:'datepickerfield',
+                    name:'Fecha',
+                    label:'Fecha',
+                    dateFormat: 'd/m/Y',
+                    picker: { yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear()},
+                    value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}
                 },
                 {
-                    xtype: 'textfield',
-                    label: 'Texte'
+                    xtype:'spinnerfield',
+                    name:'Maxima',
+                    label:'M&aacute;xima',
+                    minValue: 30,
+                    maxValue: 300,
+                    increment: 1,
+                    cycle: true
                 },
                 {
-                    xtype: 'sliderfield',
-                    label: 'Slide'
-                },
+                    xtype:'spinnerfield',
+                    name:'Minima',
+                    label:'M&iacute;nima',
+                    minValue: 5,
+                    maxValue: 200,
+                    increment: 1,
+                    cycle: true
+                },		
                 {
-                    xtype: 'spinnerfield',
-                    label: 'Spinner1'
-                },
-                {
-                    xtype: 'spinnerfield',
-                    label: 'Spinner2'
+                    xtype: 'button',
+                    text: 'Envia',
+                    ui: 'confirm',
+                    handler: function(){
+                        this.up('contactform').submit();
+                    }
                 }
                 ]
             });

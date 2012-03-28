@@ -9,15 +9,15 @@
     "userConfig": {
         "model": "DadesGluc",
         "storeId": "StoreDadesG",
-        "fields": 0.6840389398857951,
-        "proxy": 0.3756313023623079,
-        "filters": 0.8830266909208149,
-        "grouper": 0.008771136868745089,
-        "sorters": 0.8055385770276189,
-        "eventsRefGroup": 0.5620475637260824,
+        "fields": 0.3973845087457448,
+        "proxy": 0.2124123563989997,
+        "filters": 0.35990642849355936,
+        "grouper": 0.5144936563447118,
+        "sorters": 0.05755412462167442,
+        "eventsRefGroup": 0.12595027592033148,
         "designer|userClassName": "StoreLocDG",
         "designer|userAlias": "StoreDadesG",
-        "functionsRefGroup": 0.6970436826813966
+        "functionsRefGroup": 0.662073104409501
     },
     "customConfigs": [],
     "designerId": "dc461447-88d3-4c42-a51b-563ce3dcf08c",
@@ -33,12 +33,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.4997412806842476,
-                "writerRefGroup": 0.5892622657120228,
-                "eventsRefGroup": 0.025800677482038736,
+                "readerRefGroup": 0.6698422555346042,
+                "writerRefGroup": 0.498772764345631,
+                "eventsRefGroup": 0.787368357880041,
                 "id": "proxyLocalDG",
                 "designer|userClassName": "MyLocalStorageProxy2",
-                "functionsRefGroup": 0.032946516992524266
+                "functionsRefGroup": 0.9755589903797954
             },
             "customConfigs": [],
             "expanded": true

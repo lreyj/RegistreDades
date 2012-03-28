@@ -9,15 +9,15 @@
     "userConfig": {
         "model": "DadesPress",
         "storeId": "StoreDadesP",
-        "fields": 0.3421416385099292,
-        "proxy": 0.24146136175841093,
-        "filters": 0.8562807159032673,
-        "grouper": 0.37237294809892774,
-        "sorters": 0.36526768701151013,
-        "eventsRefGroup": 0.08014464075677097,
+        "fields": 0.30477598309516907,
+        "proxy": 0.3466892533469945,
+        "filters": 0.7947627399116755,
+        "grouper": 0.10785165568813682,
+        "sorters": 0.8108771562110633,
+        "eventsRefGroup": 0.1009673101361841,
         "designer|userClassName": "StoreLocDP",
         "designer|userAlias": "StoreDadesP",
-        "functionsRefGroup": 0.3363255802541971
+        "functionsRefGroup": 0.5502514245454222
     },
     "customConfigs": [],
     "designerId": "811c22bc-db80-4f8a-bc9b-6164081e39f8",
@@ -33,12 +33,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.746705972822383,
-                "writerRefGroup": 0.18282555625773966,
-                "eventsRefGroup": 0.8986625277902931,
+                "readerRefGroup": 0.3842316286172718,
+                "writerRefGroup": 0.4951147767715156,
+                "eventsRefGroup": 0.8282286818139255,
                 "id": "proxyLocalDP",
                 "designer|userClassName": "MyLocalStorageProxy1",
-                "functionsRefGroup": 0.8891023357864469
+                "functionsRefGroup": 0.6093433059286326
             },
             "customConfigs": [],
             "expanded": true

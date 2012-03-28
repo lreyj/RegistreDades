@@ -10,12 +10,12 @@
         "designer|initialView": true,
         "height": null,
         "ui": "light",
-        "eventsRefGroup": 0.9684894576203078,
+        "eventsRefGroup": 0.09798023500479758,
         "defaultBackButtonText": "Tornar",
-        "navigationBarRefGroup": 0.004865201655775309,
+        "navigationBarRefGroup": 0.4176734352950007,
         "designer|userClassName": "PanelPrincipal",
         "designer|userAlias": "PanPrinc",
-        "functionsRefGroup": 0.8994869680609554
+        "functionsRefGroup": 0.805047518806532
     },
     "customConfigs": [],
     "designerId": "5e0dc7e9-6761-473c-8fe7-a6a7cb52cdfe",
@@ -34,12 +34,12 @@
                 "docked": null,
                 "height": 300,
                 "itemId": "mynestedlist",
-                "eventsRefGroup": 0.734452024102211,
+                "eventsRefGroup": 0.19378669396974146,
                 "store": "MenuList",
                 "title": "Registre cr&ograve;nics",
-                "toolbarRefGroup": 0.10441568470560014,
+                "toolbarRefGroup": 0.9576421740930527,
                 "designer|userClassName": "MyNestedList",
-                "functionsRefGroup": 0.7787972684018314,
+                "functionsRefGroup": 0.7140104728750885,
                 "activeItem": 1
             },
             "customConfigs": [],
@@ -55,7 +55,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "fn": "onMynestedlistLeafItemTap",
-                        "implHandler": "\n\nif (record.get('text')=='Detalls'){\n    var tabPanel = Ext.create('Ext.Panel', {\n        title: 'Registre cr&ograve;nics',\n        styleHtmlContent:true,\n        items: [\n        {\n            html: [\n            \"<h2>Registre de dades per pacients cr&ograve;nics</h2><br>\",\n            \"Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0<br>\",\n            \"<br><br> Autor: Lluis Rey\",\n            \"<br>Coordinador: ...\"\n            ].join(\"\")\n        }\n        ]\n    });\n}\nelse{\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Panel dinamic prova...',\n        items: [\n        {\n            xtype: 'togglefield',\n            label: 'Toggle'\n        },\n        {\n            xtype: 'textfield',\n            label: 'Texte'\n        },\n        {\n            xtype: 'sliderfield',\n            label: 'Slide'\n        },\n        {\n            xtype: 'spinnerfield',\n            label: 'Spinner1'\n        },\n        {\n            xtype: 'spinnerfield',\n            label: 'Spinner2'\n        }\n        ]\n    });\n}\nthis.push(tabPanel);",
+                        "implHandler": "\n\nif (record.get('text')=='Detalls'){\n    var tabPanel = Ext.create('Ext.Panel', {\n        title: 'Registre cr&ograve;nics',\n        styleHtmlContent:true,\n        items: [\n        {\n            html: [\n            \"<h2>Registre de dades per pacients Cr&ograve;nics</h2><br>\",\n            \"Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0<br>\",\n            \"<br><br> Autor: Lluis Rey\",\n            \"<br>Coordinador: ...\"\n            ].join(\"\")\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Panel dinamic prova...',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Fecha',\n            label:'Fecha',\n            dateFormat: 'd/m/Y',\n            picker: { yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear()},\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Maxima',\n            label:'M&aacute;xima',\n            minValue: 30,\n            maxValue: 300,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Minima',\n            label:'M&iacute;nima',\n            minValue: 5,\n            maxValue: 200,\n            increment: 1,\n            cycle: true\n        },\t\t\n        {\n            xtype: 'button',\n            text: 'Envia',\n            ui: 'confirm',\n            handler: function(){\n                this.up('contactform').submit();\n            }\n        }\n        ]\n    });\n}\nthis.push(tabPanel);",
                         "name": "leafitemtap",
                         "designer|userClassName": "onMynestedlistLeafItemTap"
                     },
@@ -73,9 +73,9 @@
                     "userConfig": {
                         "cls": null,
                         "height": null,
-                        "eventsRefGroup": 0.05538470600731671,
+                        "eventsRefGroup": 0.928688264451921,
                         "designer|userClassName": "MyToolbar",
-                        "functionsRefGroup": 0.5933286703657359
+                        "functionsRefGroup": 0.9924238112289459
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -93,9 +93,9 @@
             "userConfig": {
                 "height": 38,
                 "tpl": null,
-                "eventsRefGroup": 0.6903215919155627,
+                "eventsRefGroup": 0.4659124796744436,
                 "designer|userClassName": "MyNavigationBar",
-                "functionsRefGroup": 0.9830572463106364,
+                "functionsRefGroup": 0.9345640381798148,
                 "title": null
             },
             "customConfigs": [],
