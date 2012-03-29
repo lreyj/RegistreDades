@@ -92,14 +92,6 @@
                 "app/view/PanelPrincipal.js"
             ],
             "className": "PanelPrincipal"
-        },
-        "65f0db32-52a8-432a-8fb2-ea355884ccc8": {
-            "paths": [
-                "metadata/view/dadespacient",
-                "app/view/override/dadespacient.js",
-                "app/view/dadespacient.js"
-            ],
-            "className": "dadespacient"
         }
     },
     "expandedState": {

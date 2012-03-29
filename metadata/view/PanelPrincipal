@@ -10,12 +10,12 @@
         "designer|initialView": true,
         "height": null,
         "ui": "light",
-        "eventsRefGroup": 0.5791295515373349,
+        "eventsRefGroup": 0.8197566661983728,
         "defaultBackButtonText": "Tornar",
-        "navigationBarRefGroup": 0.45932273799553514,
+        "navigationBarRefGroup": 0.09878106438554823,
         "designer|userClassName": "PanelPrincipal",
         "designer|userAlias": "PanPrinc",
-        "functionsRefGroup": 0.2872577365487814
+        "functionsRefGroup": 0.13538345065899193
     },
     "customConfigs": [],
     "designerId": "5e0dc7e9-6761-473c-8fe7-a6a7cb52cdfe",
@@ -34,12 +34,12 @@
                 "docked": null,
                 "height": 300,
                 "itemId": "mynestedlist",
-                "eventsRefGroup": 0.46886770077981055,
+                "eventsRefGroup": 0.4920487825293094,
                 "store": "MenuList",
                 "title": "Registre cr&ograve;nics",
-                "toolbarRefGroup": 0.5348973639775068,
+                "toolbarRefGroup": 0.12199985096231103,
                 "designer|userClassName": "MyNestedList",
-                "functionsRefGroup": 0.5421022123191506,
+                "functionsRefGroup": 0.7412568235304207,
                 "activeItem": 1
             },
             "customConfigs": [],
@@ -55,7 +55,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "fn": "onMynestedlistLeafItemTap",
-                        "implHandler": "\n\nif (record.get('text')=='Detalls'){\n    var tabPanel = Ext.create('Ext.Panel', {\n        title: 'Registre cr&ograve;nics',\n        cls: 'home',\n        styleHtmlContent:true,\n        items: [\n        {\n            html: [\n            \"<h2>Registre de dades per pacients Cr&ograve;nics</h2><br>\",\n            \"Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0<br>\",\n            \"<br><br> Autor: Lluis Rey Junquera\",\n            \"<br>Coordinador: Carlos Sanchez Rosa\"\n            ].join(\"\")\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar Pressi&oacute;'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Registre de Pressi&oacute;',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Data',\n            label:'Data',\n            dateFormat: 'd/m/Y',\n            picker: { yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear()},\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Maxima',\n            label:'M&aacute;xima',\n            minValue: 30,\n            maxValue: 300,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Minima',\n            label:'M&iacute;nima',\n            minValue: 5,\n            maxValue: 200,\n            increment: 1,\n            cycle: true\n        },\t\t\n        {\n            xtype: 'button',\n            text: 'Ok',\n            ui: 'confirm',\n            handler: function(){\n                this.up('contactform').submit();\n            }\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar Glucosa'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Registre de Pressi&oacute;',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Data',\n            label:'Data',\n            dateFormat: 'd/m/Y',\n            picker: { \n                yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),\n                slotOrder: ['day', 'month', 'year']\n            },\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Glucosa',\n            label:'Glucosa',\n            minValue: 20,\n            maxValue: 500,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype: 'button',\n            text: 'Ok',\n            ui: 'confirm',\n            handler: function(){\n                this.up('contactform').submit();\n            }\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Dades Pacient'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Dades Personals',\n\n        items: [\n        {\n            xtype: 'fieldset',\n            title: 'Dades',\n            instructions: 'El codi es el seu Identificador de pacient a la Cl&iacute;nica.<br>L\\'adreça de correu pot ser necess&agrave;ria per contactar amb vost&egrave;',\n            items: [\n            {\n                xtype: 'numberfield',\n                label: 'Codi',\n                name: 'Codi'\n            },\n            {\n                xtype: 'textfield',\n                itemId: 'Nom',\n                label: 'Nom'\n            },\n            {\n                xtype: 'emailfield',\n                label: 'Correu',\n                placeHolder: 'email@exemple.com'\n            },\n            {\n                xtype: 'togglefield',\n                itemId: 'PressioTgl',\n                label: 'Pressi&oacute;',\n                value: 1\n            },\n            {\n                xtype: 'togglefield',\n                itemId: 'GlucosaTgl',\n                label: 'Glucosa',\n                value: 1\n            },\n            {\n                xtype: 'button',\n                itemId: 'dadesbutton',\n                ui: 'confirm-round',\n                text: 'Desar',\n                handler: function(){\n                    console.log('Desar dades d\\'usuari');\n                }\n            }\n            ]\n        }\n        ]\n    });\n\n}\nthis.push(tabPanel);\n",
+                        "implHandler": "\nif (record.get('text')=='Detalls'){\n    var tabPanel = Ext.create('Ext.Panel', {\n        title: 'Registre cr&ograve;nics',\n        cls: 'home',\n        styleHtmlContent:true,\n        items: [\n        {\n            html: [\n            \"<h2>Registre de dades per pacients Cr&ograve;nics</h2><br>\",\n            \"Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0<br>\",\n            \"<br><br> Autor: Lluis Rey Junquera\",\n            \"<br>Coordinador: Carlos Sanchez Rosa\"\n            ].join(\"\")\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar Pressi&oacute;'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Registre de Pressi&oacute;',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Data',\n            label:'Data',\n            dateFormat: 'd/m/Y',\n            picker: { \n                yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),\n                slotOrder: ['day', 'month', 'year']\n            },\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Maxima',\n            label:'M&aacute;xima',\n            minValue: 30,\n            maxValue: 300,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Minima',\n            label:'M&iacute;nima',\n            minValue: 5,\n            maxValue: 200,\n            increment: 1,\n            cycle: true\n        },\t\t\n        {\n            xtype: 'button',\n            text: 'Ok',\n            ui: 'confirm',\n            handler: function(){\n                console.log('Desar dades de pressió');\n            }\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar Glucosa'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Registre de Pressi&oacute;',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Data',\n            label:'Data',\n            dateFormat: 'd/m/Y',\n            picker: { \n                yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),\n                slotOrder: ['day', 'month', 'year']\n            },\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Glucosa',\n            label:'Glucosa',\n            minValue: 20,\n            maxValue: 500,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype: 'button',\n            text: 'Ok',\n            ui: 'confirm',\n            handler: function(){\n                console.log('Desar dades de glucosa');\n            }\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Dades Pacient'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Dades Personals',\n\n        items: [\n        {\n            xtype: 'fieldset',\n            title: 'Dades',\n            instructions: 'El codi es el seu Identificador de pacient a la Cl&iacute;nica.<br>L\\'adreça de correu pot ser necess&agrave;ria per contactar amb vost&egrave;',\n            items: [\n            {\n                xtype: 'numberfield',\n                label: 'Codi',\n                name: 'Codi'\n            },\n            {\n                xtype: 'textfield',\n                itemId: 'Nom',\n                label: 'Nom'\n            },\n            {\n                xtype: 'emailfield',\n                label: 'Correu',\n                placeHolder: 'email@exemple.com'\n            },\n            {\n                xtype: 'togglefield',\n                itemId: 'PressioTgl',\n                label: 'Pressi&oacute;',\n                value: 1\n            },\n            {\n                xtype: 'togglefield',\n                itemId: 'GlucosaTgl',\n                label: 'Glucosa',\n                value: 1\n            },\n            {\n                xtype: 'button',\n                itemId: 'dadesbutton',\n                ui: 'confirm-round',\n                text: 'Desar',\n                handler: function(){\n                    console.log('Desar dades d\\'usuari');\n                }\n            }\n            ]\n        }\n        ]\n    });\n\n}\nthis.push(tabPanel);\n",
                         "name": "leafitemtap",
                         "designer|userClassName": "onMynestedlistLeafItemTap"
                     },
@@ -73,9 +73,9 @@
                     "userConfig": {
                         "cls": null,
                         "height": null,
-                        "eventsRefGroup": 0.32841060613282025,
+                        "eventsRefGroup": 0.5970220805611461,
                         "designer|userClassName": "MyToolbar",
-                        "functionsRefGroup": 0.7142307115718722
+                        "functionsRefGroup": 0.7142964550293982
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -93,9 +93,9 @@
             "userConfig": {
                 "height": 38,
                 "tpl": null,
-                "eventsRefGroup": 0.2795240473933518,
+                "eventsRefGroup": 0.49374652351252735,
                 "designer|userClassName": "MyNavigationBar",
-                "functionsRefGroup": 0.41336853872053325,
+                "functionsRefGroup": 0.7774309704545885,
                 "title": null
             },
             "customConfigs": [],

@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.21692860638722777,
-        "fields": 0.8901503963861614,
-        "proxy": 0.2267457286361605,
-        "validations": 0.2648530777078122,
+        "associations": 0.6399562126025558,
+        "fields": 0.20543860993348062,
+        "proxy": 0.13756935740821064,
+        "validations": 0.8662803885526955,
         "designer|userClassName": "DadesGluc",
         "designer|userAlias": "glucosa",
-        "functionsRefGroup": 0.9329354965593666
+        "functionsRefGroup": 0.5387089813593775
     },
     "customConfigs": [],
     "designerId": "ec63eda9-cbea-42bf-bcf7-5e82b402a515",
@@ -29,10 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.31528304261155427,
+                "convert": 0.35767114302143455,
                 "name": "id",
                 "designer|userClassName": "MyField7",
-                "functionsRefGroup": 0.1593347368761897
+                "functionsRefGroup": 0.21956620831042528
             },
             "customConfigs": [],
             "expanded": true
@@ -46,11 +46,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.18637488619424403,
+                "convert": 0.541184424655512,
                 "name": "Data",
                 "type": "date",
                 "designer|userClassName": "MyField8",
-                "functionsRefGroup": 0.47060584952123463
+                "functionsRefGroup": 0.3008739009965211
             },
             "customConfigs": [],
             "expanded": true
@@ -64,10 +64,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.5124343764036894,
+                "convert": 0.054201014107093215,
                 "name": "Glucosa",
                 "designer|userClassName": "MyField9",
-                "functionsRefGroup": 0.39003005041740835
+                "functionsRefGroup": 0.32241330365650356
             },
             "customConfigs": [],
             "expanded": true

@@ -47,7 +47,6 @@ Ext.define('RegCr.view.PanelPrincipal', {
 
     onMynestedlistLeafItemTap: function(nestedlist, list, index, target, record, e, options) {
 
-
         if (record.get('text')=='Detalls'){
             var tabPanel = Ext.create('Ext.Panel', {
                 title: 'Registre cr&ograve;nics',
@@ -74,7 +73,10 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     name:'Data',
                     label:'Data',
                     dateFormat: 'd/m/Y',
-                    picker: { yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear()},
+                    picker: { 
+                        yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),
+                        slotOrder: ['day', 'month', 'year']
+                    },
                     value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}
                 },
                 {
@@ -100,7 +102,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     text: 'Ok',
                     ui: 'confirm',
                     handler: function(){
-                        this.up('contactform').submit();
+                        console.log('Desar dades de pressió');
                     }
                 }
                 ]
@@ -135,7 +137,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     text: 'Ok',
                     ui: 'confirm',
                     handler: function(){
-                        this.up('contactform').submit();
+                        console.log('Desar dades de glucosa');
                     }
                 }
                 ]

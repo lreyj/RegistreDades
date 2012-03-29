@@ -33,8 +33,7 @@ Ext.application({
     ],
 
     views: [
-        'PanelPrincipal',
-        'dadespacient'
+        'PanelPrincipal'
     ],
 
     name: 'RegCr',
