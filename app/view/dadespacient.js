@@ -64,14 +64,14 @@ Ext.define('RegCr.view.dadespacient', {
         ],
         listeners: [
             {
-                fn: 'onMybuttonTap',
+                fn: 'onDadesbuttonTap',
                 event: 'tap',
                 delegate: '#dadesbutton'
             }
         ]
     },
 
-    onMybuttonTap: function(button, e, options) {
+    onDadesbuttonTap: function(button, e, options) {
 
     }
 

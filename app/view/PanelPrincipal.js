@@ -182,25 +182,19 @@ Ext.define('RegCr.view.PanelPrincipal', {
                         xtype: 'button',
                         itemId: 'dadesbutton',
                         ui: 'confirm-round',
-                        text: 'Desar'
+                        text: 'Desar',
+                        handler: function(){
+                            console.log('Desar dades d\'usuari');
+                        }
                     }
                     ]
                 }
-                ],
-                listeners: [
-                {
-                    fn: 'onMybuttonTap',
-                    event: 'tap',
-                    delegate: '#dadesbutton'
-                }
-                ],
-                onMybuttonTap: function(button, e, options) {
-                    console.log('Desar dades d\'usuari');
-                }
-
+                ]
             });
+
         }
         this.push(tabPanel);
+
     }
 
 });

@@ -9,15 +9,15 @@
     "userConfig": {
         "model": "Usuari",
         "storeId": "StLocUser",
-        "fields": 0.04480208712629974,
-        "proxy": 0.18307806202210486,
-        "filters": 0.974883921444416,
-        "grouper": 0.6256188417319208,
-        "sorters": 0.8149683161173016,
-        "eventsRefGroup": 0.8370928417425603,
+        "fields": 0.18230563891120255,
+        "proxy": 0.5805904527660459,
+        "filters": 0.3061267710290849,
+        "grouper": 0.561556967208162,
+        "sorters": 0.9964546239934862,
+        "eventsRefGroup": 0.4457509669009596,
         "designer|userClassName": "StoreLocUser",
         "designer|userAlias": "storeUsuari",
-        "functionsRefGroup": 0.6270973980426788
+        "functionsRefGroup": 0.9766223148908466
     },
     "customConfigs": [],
     "designerId": "168f60bc-6d4a-4871-ac77-5f41ea1c6afc",
@@ -33,12 +33,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.9927932764403522,
-                "writerRefGroup": 0.2306788028217852,
-                "eventsRefGroup": 0.5272029102779925,
+                "readerRefGroup": 0.13791459542699158,
+                "writerRefGroup": 0.7267136101145297,
+                "eventsRefGroup": 0.9856627669651061,
                 "id": "proxyLocalUsr",
                 "designer|userClassName": "MyLocalStorageProxy",
-                "functionsRefGroup": 0.0583165951538831
+                "functionsRefGroup": 0.4632728446740657
             },
             "customConfigs": [],
             "expanded": true

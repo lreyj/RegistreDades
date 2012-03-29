@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.17118070553988218,
-        "fields": 0.7981274051126093,
-        "proxy": 0.5574486411642283,
-        "validations": 0.6708852651063353,
+        "associations": 0.21692860638722777,
+        "fields": 0.8901503963861614,
+        "proxy": 0.2267457286361605,
+        "validations": 0.2648530777078122,
         "designer|userClassName": "DadesGluc",
         "designer|userAlias": "glucosa",
-        "functionsRefGroup": 0.5243589312303811
+        "functionsRefGroup": 0.9329354965593666
     },
     "customConfigs": [],
     "designerId": "ec63eda9-cbea-42bf-bcf7-5e82b402a515",
@@ -29,10 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.29889873205684125,
+                "convert": 0.31528304261155427,
                 "name": "id",
                 "designer|userClassName": "MyField7",
-                "functionsRefGroup": 0.8381809866987169
+                "functionsRefGroup": 0.1593347368761897
             },
             "customConfigs": [],
             "expanded": true
@@ -46,11 +46,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.7248448971658945,
+                "convert": 0.18637488619424403,
                 "name": "Data",
                 "type": "date",
                 "designer|userClassName": "MyField8",
-                "functionsRefGroup": 0.2873003692366183
+                "functionsRefGroup": 0.47060584952123463
             },
             "customConfigs": [],
             "expanded": true
@@ -64,10 +64,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.39228152483701706,
+                "convert": 0.5124343764036894,
                 "name": "Glucosa",
                 "designer|userClassName": "MyField9",
-                "functionsRefGroup": 0.75011993246153
+                "functionsRefGroup": 0.39003005041740835
             },
             "customConfigs": [],
             "expanded": true
