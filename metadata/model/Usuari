@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.7210009035188705,
-        "fields": 0.15743520623072982,
-        "proxy": 0.47209996194578707,
-        "validations": 0.3070015686098486,
+        "associations": 0.3010482913814485,
+        "fields": 0.5641280976124108,
+        "proxy": 0.4436686742119491,
+        "validations": 0.2453599665313959,
         "designer|userClassName": "Usuari",
         "designer|userAlias": "Usuari",
-        "functionsRefGroup": 0.7256949539296329
+        "functionsRefGroup": 0.48079038690775633
     },
     "customConfigs": [],
     "designerId": "16181103-af94-43b4-94a8-5df26f5c93d4",
@@ -29,11 +29,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9410966141149402,
+                "convert": 0.12961415154859424,
                 "name": "id",
-                "type": "int",
+                "type": "auto",
                 "designer|userClassName": "MyField",
-                "functionsRefGroup": 0.44539841916412115
+                "functionsRefGroup": 0.5734624464530498
             },
             "customConfigs": [],
             "expanded": true
@@ -47,11 +47,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.7628768964204937,
+                "convert": 0.2563055814243853,
                 "name": "nom",
-                "type": "string",
+                "type": "auto",
                 "designer|userClassName": "MyField1",
-                "functionsRefGroup": 0.6601371697615832
+                "functionsRefGroup": 0.4415672712493688
             },
             "customConfigs": [],
             "expanded": true
@@ -65,11 +65,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9859054896514863,
+                "convert": 0.12442524638026953,
                 "name": "email",
-                "type": "string",
+                "type": "auto",
                 "designer|userClassName": "MyField2",
-                "functionsRefGroup": 0.8776156723033637
+                "functionsRefGroup": 0.2911620647646487
             },
             "customConfigs": [],
             "expanded": true
@@ -83,11 +83,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.059928319649770856,
+                "convert": 0.45673030195757747,
                 "name": "pressio",
-                "type": "int",
+                "type": "auto",
                 "designer|userClassName": "MyField11",
-                "functionsRefGroup": 0.8490922681521624
+                "functionsRefGroup": 0.8296381288673729
             },
             "customConfigs": [],
             "expanded": true
@@ -101,11 +101,29 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.593498527770862,
+                "convert": 0.6305712959729135,
                 "name": "glucosa",
-                "type": "int",
+                "type": "auto",
                 "designer|userClassName": "MyField12",
-                "functionsRefGroup": 0.6955762603320181
+                "functionsRefGroup": 0.6798603036440909
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen14952",
+            "type": "localstorageproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "readerRefGroup": 0.4785415583755821,
+                "writerRefGroup": 0.08807870675809681,
+                "eventsRefGroup": 0.8027078520972282,
+                "id": "UsuariLocalSt",
+                "designer|userClassName": "MyLocalStorageProxy"
             },
             "customConfigs": [],
             "expanded": true

@@ -20,24 +20,28 @@ Ext.define('RegCr.model.Usuari', {
         fields: [
             {
                 name: 'id',
-                type: 'int'
+                type: 'auto'
             },
             {
                 name: 'nom',
-                type: 'string'
+                type: 'auto'
             },
             {
                 name: 'email',
-                type: 'string'
+                type: 'auto'
             },
             {
                 name: 'pressio',
-                type: 'int'
+                type: 'auto'
             },
             {
                 name: 'glucosa',
-                type: 'int'
+                type: 'auto'
             }
-        ]
+        ],
+        proxy: {
+            type: 'localstorage',
+            id: 'UsuariLocalSt'
+        }
     }
 });

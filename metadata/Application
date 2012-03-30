@@ -7,30 +7,31 @@
     },
     "codeClass": null,
     "userConfig": {
-        "actionsRefGroup": 0.31445670244283974,
+        "actionsRefGroup": 0.5709366200026125,
         "models": [
             "Usuari",
             "DadesPress",
             "DadesGluc",
             "ListItems"
         ],
-        "refsRefGroup": 0.09073837660253048,
+        "refsRefGroup": 0.7294992676470429,
         "stores": [
-            "StoreLocUser",
             "StoreLocDP",
             "StoreLocDG",
-            "MIniciStore"
+            "MIniciStore",
+            "StLocUser"
         ],
         "views": [
-            "PanelPrincipal"
+            "PanelPrincipal",
+            "MyFormPanel1"
         ],
-        "beforeFiltersRefGroup": 0.1876253958325833,
+        "beforeFiltersRefGroup": 0.020676980260759592,
         "designer|launch": "",
-        "routesRefGroup": 0.04561136267147958,
-        "eventsRefGroup": 0.05954331229440868,
+        "routesRefGroup": 0.663916997378692,
+        "eventsRefGroup": 0.7056056505534798,
         "name": "RegCr",
-        "viewport": 0.16333732544444501,
-        "functionsRefGroup": 0.5711220353841782
+        "viewport": 0.518786400090903,
+        "functionsRefGroup": 0.6511716342065483
     },
     "customConfigs": [],
     "designerId": "application",

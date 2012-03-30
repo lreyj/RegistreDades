@@ -26,19 +26,20 @@ Ext.application({
     ],
 
     stores: [
-        'StoreLocUser',
         'StoreLocDP',
         'StoreLocDG',
-        'MIniciStore'
+        'MIniciStore',
+        'StLocUser'
     ],
 
     views: [
-        'PanelPrincipal'
+        'PanelPrincipal',
+        'MyFormPanel1'
     ],
 
     name: 'RegCr',
 
     launch: function() {
-        Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});
+        Ext.create('RegCr.view.MyFormPanel1', {fullscreen: true});
     }
 });

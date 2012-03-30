@@ -27,7 +27,7 @@ Ext.define('RegCr.store.MIniciStore', {
         root: 'item',
         proxy: {
             type: 'ajax',
-            url: 'menu.json',
+            url: 'data/menu.json',
             reader: {
                 type: 'json',
                 rootProperty: 'items'

@@ -45,14 +45,6 @@
             ],
             "className": "DadesGluc"
         },
-        "168f60bc-6d4a-4871-ac77-5f41ea1c6afc": {
-            "paths": [
-                "metadata/store/StoreLocUser",
-                "app/store/override/StoreLocUser.js",
-                "app/store/StoreLocUser.js"
-            ],
-            "className": "StoreLocUser"
-        },
         "811c22bc-db80-4f8a-bc9b-6164081e39f8": {
             "paths": [
                 "metadata/store/StoreLocDP",
@@ -92,6 +84,22 @@
                 "app/view/PanelPrincipal.js"
             ],
             "className": "PanelPrincipal"
+        },
+        "41727907-180a-4a4a-9b60-7abfc87b484a": {
+            "paths": [
+                "metadata/store/StLocUser",
+                "app/store/override/StLocUser.js",
+                "app/store/StLocUser.js"
+            ],
+            "className": "StLocUser"
+        },
+        "ab780353-6521-4790-b178-379d0d1c075c": {
+            "paths": [
+                "metadata/view/MyFormPanel1",
+                "app/view/override/MyFormPanel1.js",
+                "app/view/MyFormPanel1.js"
+            ],
+            "className": "MyFormPanel1"
         }
     },
     "expandedState": {

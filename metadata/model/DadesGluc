@@ -7,13 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.6399562126025558,
-        "fields": 0.20543860993348062,
-        "proxy": 0.13756935740821064,
-        "validations": 0.8662803885526955,
+        "associations": 0.18522312282584608,
+        "fields": 0.1610212775412947,
+        "proxy": 0.46419134526513517,
+        "validations": 0.9685048027895391,
         "designer|userClassName": "DadesGluc",
         "designer|userAlias": "glucosa",
-        "functionsRefGroup": 0.5387089813593775
+        "functionsRefGroup": 0.6237696199677885
     },
     "customConfigs": [],
     "designerId": "ec63eda9-cbea-42bf-bcf7-5e82b402a515",
@@ -29,10 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.35767114302143455,
+                "convert": 0.6825925735756755,
                 "name": "id",
                 "designer|userClassName": "MyField7",
-                "functionsRefGroup": 0.21956620831042528
+                "functionsRefGroup": 0.38627369119785726
             },
             "customConfigs": [],
             "expanded": true
@@ -46,11 +46,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.541184424655512,
+                "convert": 0.9728327919729054,
                 "name": "Data",
                 "type": "date",
                 "designer|userClassName": "MyField8",
-                "functionsRefGroup": 0.3008739009965211
+                "functionsRefGroup": 0.14660483202897012
             },
             "customConfigs": [],
             "expanded": true
@@ -64,10 +64,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.054201014107093215,
+                "convert": 0.30327446945011616,
                 "name": "Glucosa",
                 "designer|userClassName": "MyField9",
-                "functionsRefGroup": 0.32241330365650356
+                "functionsRefGroup": 0.039863234385848045
             },
             "customConfigs": [],
             "expanded": true

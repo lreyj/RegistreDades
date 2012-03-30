@@ -7,20 +7,19 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
         "height": null,
         "ui": "light",
-        "eventsRefGroup": 0.8197566661983728,
+        "eventsRefGroup": 0.8340960710775107,
         "defaultBackButtonText": "Tornar",
-        "navigationBarRefGroup": 0.09878106438554823,
+        "navigationBarRefGroup": 0.6937413495033979,
         "designer|userClassName": "PanelPrincipal",
         "designer|userAlias": "PanPrinc",
-        "functionsRefGroup": 0.13538345065899193
+        "functionsRefGroup": 0.1759605840779841
     },
     "customConfigs": [],
     "designerId": "5e0dc7e9-6761-473c-8fe7-a6a7cb52cdfe",
     "$viewOrder": 0,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen12229",
@@ -34,16 +33,16 @@
                 "docked": null,
                 "height": 300,
                 "itemId": "mynestedlist",
-                "eventsRefGroup": 0.4920487825293094,
+                "eventsRefGroup": 0.17288711317814887,
                 "store": "MenuList",
                 "title": "Registre cr&ograve;nics",
-                "toolbarRefGroup": 0.12199985096231103,
+                "toolbarRefGroup": 0.997471512760967,
                 "designer|userClassName": "MyNestedList",
-                "functionsRefGroup": 0.7412568235304207,
+                "functionsRefGroup": 0.6855102211702615,
                 "activeItem": 1
             },
             "customConfigs": [],
-            "expanded": true,
+            "expanded": false,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen11329",
@@ -73,9 +72,9 @@
                     "userConfig": {
                         "cls": null,
                         "height": null,
-                        "eventsRefGroup": 0.5970220805611461,
+                        "eventsRefGroup": 0.07776103331707418,
                         "designer|userClassName": "MyToolbar",
-                        "functionsRefGroup": 0.7142964550293982
+                        "functionsRefGroup": 0.9727508397772908
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -93,9 +92,9 @@
             "userConfig": {
                 "height": 38,
                 "tpl": null,
-                "eventsRefGroup": 0.49374652351252735,
+                "eventsRefGroup": 0.08896806091070175,
                 "designer|userClassName": "MyNavigationBar",
-                "functionsRefGroup": 0.7774309704545885,
+                "functionsRefGroup": 0.49570180010050535,
                 "title": null
             },
             "customConfigs": [],

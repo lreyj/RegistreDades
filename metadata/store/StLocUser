@@ -1,0 +1,27 @@
+{
+    "id": "ExtBox1-ext-gen10169",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Usuari",
+        "storeId": "StLocUser",
+        "fields": 0.4035397619009018,
+        "proxy": 0.5515528651885688,
+        "filters": 0.397408029763028,
+        "grouper": 0.6297442920040339,
+        "sorters": 0.6487743556499481,
+        "eventsRefGroup": 0.451800100505352,
+        "designer|userClassName": "StLocUser",
+        "designer|userAlias": "StLocUser",
+        "functionsRefGroup": 0.9988120391499251
+    },
+    "customConfigs": [],
+    "designerId": "41727907-180a-4a4a-9b60-7abfc87b484a",
+    "$viewOrder": 0,
+    "expanded": true
+}
