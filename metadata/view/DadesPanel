@@ -8,9 +8,9 @@
     "codeClass": null,
     "userConfig": {
         "id": "DadesPac",
-        "eventsRefGroup": 0.898387937573716,
+        "eventsRefGroup": 0.22797862673178315,
         "designer|userClassName": "DadesPanel",
-        "functionsRefGroup": 0.5238628997467458
+        "functionsRefGroup": 0.9856532290577888
     },
     "customConfigs": [],
     "designerId": "cfe17ddd-a43a-4f99-be73-c7999dd71378",
@@ -27,10 +27,10 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "myfieldset1",
-                "eventsRefGroup": 0.17484105634503067,
+                "eventsRefGroup": 0.9340560564305633,
                 "title": "Dades",
                 "designer|userClassName": "MyFieldSet",
-                "functionsRefGroup": 0.8541476123500615
+                "functionsRefGroup": 0.39580602780915797
             },
             "customConfigs": [],
             "expanded": true,
@@ -45,10 +45,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "Codi",
-                        "eventsRefGroup": 0.7427599357906729,
+                        "eventsRefGroup": 0.037728110095486045,
                         "label": "Codi",
                         "designer|userClassName": "MyNumberField",
-                        "functionsRefGroup": 0.5827471758238971
+                        "functionsRefGroup": 0.08103547315113246
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -63,10 +63,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "Nom",
-                        "eventsRefGroup": 0.5692547273356467,
+                        "eventsRefGroup": 0.3534168219193816,
                         "label": "Nom",
                         "designer|userClassName": "MyTextField2",
-                        "functionsRefGroup": 0.897405122872442
+                        "functionsRefGroup": 0.4909106760751456
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -81,11 +81,11 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "email",
-                        "eventsRefGroup": 0.45913715241476893,
+                        "eventsRefGroup": 0.7790494023356587,
                         "label": "Mail",
                         "placeHolder": "email@example.com",
                         "designer|userClassName": "MyEmailField",
-                        "functionsRefGroup": 0.5885557034052908
+                        "functionsRefGroup": 0.017667410196736455
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -100,10 +100,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "PressTgl",
-                        "eventsRefGroup": 0.7512710962910205,
+                        "eventsRefGroup": 0.10508638620376587,
                         "label": "Pressió",
                         "designer|userClassName": "MyToggleField1",
-                        "functionsRefGroup": 0.21853283466771245
+                        "functionsRefGroup": 0.30018570297397673
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -118,10 +118,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "GlucTgl",
-                        "eventsRefGroup": 0.9023437951691449,
+                        "eventsRefGroup": 0.6291982354596257,
                         "label": "Glucosa",
                         "designer|userClassName": "MyToggleField",
-                        "functionsRefGroup": 0.039805446518585086
+                        "functionsRefGroup": 0.42373047093860805
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -137,10 +137,10 @@
                     "userConfig": {
                         "id": "Grabar",
                         "itemId": "mybutton",
-                        "eventsRefGroup": 0.9634416883345693,
+                        "eventsRefGroup": 0.9206155787687749,
                         "text": "Grabar",
                         "designer|userClassName": "MyButton",
-                        "functionsRefGroup": 0.3599664375651628
+                        "functionsRefGroup": 0.01875118911266327
                     },
                     "customConfigs": [],
                     "expanded": true,

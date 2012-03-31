@@ -10,12 +10,12 @@
         "designer|initialView": true,
         "height": null,
         "ui": "light",
-        "eventsRefGroup": 0.14981288323178887,
+        "eventsRefGroup": 0.106482989853248,
         "defaultBackButtonText": "Tornar",
-        "navigationBarRefGroup": 0.5231327025685459,
+        "navigationBarRefGroup": 0.07251400128006935,
         "designer|userClassName": "PanelPrincipal",
         "designer|userAlias": "PanPrinc",
-        "functionsRefGroup": 0.31256133294664323
+        "functionsRefGroup": 0.3356433960143477
     },
     "customConfigs": [],
     "designerId": "5e0dc7e9-6761-473c-8fe7-a6a7cb52cdfe",
@@ -34,12 +34,12 @@
                 "docked": null,
                 "height": 300,
                 "itemId": "mynestedlist",
-                "eventsRefGroup": 0.35950921662151814,
+                "eventsRefGroup": 0.4390788364689797,
                 "store": "MenuList",
                 "title": "Registre cr&ograve;nics",
-                "toolbarRefGroup": 0.5512199886143208,
+                "toolbarRefGroup": 0.26330271433107555,
                 "designer|userClassName": "MyNestedList",
-                "functionsRefGroup": 0.04801343148574233,
+                "functionsRefGroup": 0.014926747186109424,
                 "activeItem": 1
             },
             "customConfigs": [],
@@ -73,9 +73,9 @@
                     "userConfig": {
                         "cls": null,
                         "height": null,
-                        "eventsRefGroup": 0.4415847114287317,
+                        "eventsRefGroup": 0.10948738711886108,
                         "designer|userClassName": "MyToolbar",
-                        "functionsRefGroup": 0.76632254361175
+                        "functionsRefGroup": 0.11374513572081923
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -93,9 +93,9 @@
             "userConfig": {
                 "height": 38,
                 "tpl": null,
-                "eventsRefGroup": 0.14139238349162042,
+                "eventsRefGroup": 0.932079512393102,
                 "designer|userClassName": "MyNavigationBar",
-                "functionsRefGroup": 0.8208491923287511,
+                "functionsRefGroup": 0.8204070224892348,
                 "title": null
             },
             "customConfigs": [],

@@ -7,18 +7,18 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.44554690457880497,
-        "fields": 0.8777628527022898,
-        "proxy": 0.26831465191207826,
-        "validations": 0.5393619444221258,
+        "associations": 0.754274730104953,
+        "fields": 0.20139535353519022,
+        "proxy": 0.40956095000728965,
+        "validations": 0.8311552498489618,
         "designer|userClassName": "DadesGluc",
         "designer|userAlias": "glucosa",
-        "functionsRefGroup": 0.43408996309153736
+        "functionsRefGroup": 0.2663513566367328
     },
     "customConfigs": [],
     "designerId": "ec63eda9-cbea-42bf-bcf7-5e82b402a515",
     "$viewOrder": 1,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen10438",
@@ -29,11 +29,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.6713005835190415,
+                "convert": 0.5447485384065658,
                 "name": "Data",
                 "type": "date",
                 "designer|userClassName": "MyField8",
-                "functionsRefGroup": 0.1229588920250535
+                "functionsRefGroup": 0.12720579258166254
             },
             "customConfigs": [],
             "expanded": true
@@ -47,10 +47,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9352392724249512,
+                "convert": 0.487311493139714,
                 "name": "Glucosa",
                 "designer|userClassName": "MyField9",
-                "functionsRefGroup": 0.7918928884901106
+                "functionsRefGroup": 0.720538426656276
             },
             "customConfigs": [],
             "expanded": true

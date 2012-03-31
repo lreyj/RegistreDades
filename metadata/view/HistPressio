@@ -9,10 +9,10 @@
     "userConfig": {
         "id": "HistPres",
         "ui": "light",
-        "eventsRefGroup": 0.5242381223943084,
-        "tabBarRefGroup": 0.7220474840141833,
+        "eventsRefGroup": 0.4258854219224304,
+        "tabBarRefGroup": 0.2162042127456516,
         "designer|userClassName": "HistPressio",
-        "functionsRefGroup": 0.0784211065620184
+        "functionsRefGroup": 0.7646806167904288
     },
     "customConfigs": [],
     "designerId": "da6dc6d8-97c3-4421-a677-6adf70a9c041",
@@ -29,13 +29,13 @@
             "codeClass": null,
             "userConfig": {
                 "id": "ListaPressio",
-                "eventsRefGroup": 0.4585596870165318,
+                "eventsRefGroup": 0.47898508119396865,
                 "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Min: {minima} - Max: {maxima}</div>",
                 "store": "StoreDadesP",
-                "indexBar": 0.6791338415350765,
-                "pluginsRefGroup": 0.906061575980857,
+                "indexBar": 0.6153449532575905,
+                "pluginsRefGroup": 0.7112675488460809,
                 "designer|userClassName": "MyList",
-                "functionsRefGroup": 0.7481312532909214,
+                "functionsRefGroup": 0.8057610485702753,
                 "title": "Llista"
             },
             "customConfigs": [],

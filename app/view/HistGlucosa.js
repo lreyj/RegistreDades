@@ -24,7 +24,7 @@ Ext.define('RegCr.view.HistGlucosa', {
                 xtype: 'list',
                 id: 'LisGluc',
                 itemTpl: [
-                    '<div>Data {date("d/m/Y")} - {Glucosa}</div>'
+                    '<div>{Data:date("d/m/Y")} - Sucre: {Glucosa}</div>'
                 ],
                 store: 'StoreDadesG',
                 grouped: false,
