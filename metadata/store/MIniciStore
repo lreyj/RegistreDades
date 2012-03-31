@@ -10,21 +10,21 @@
         "autoLoad": true,
         "model": "ListItems",
         "storeId": "MenuList",
-        "fields": 0.21309892949648201,
-        "proxy": 0.7390282601118088,
-        "filters": 0.6272370319347829,
-        "grouper": 0.7406808487139642,
-        "sorters": 0.13533986895345151,
-        "eventsRefGroup": 0.6442209160886705,
+        "fields": 0.6722936872392893,
+        "proxy": 0.2355221372563392,
+        "filters": 0.11067385971546173,
+        "grouper": 0.3304227665066719,
+        "sorters": 0.12520435475744307,
+        "eventsRefGroup": 0.05657318071462214,
         "root": "item",
         "designer|userClassName": "MIniciStore",
         "designer|userAlias": "StoreMenu",
-        "functionsRefGroup": 0.31675465079024434
+        "functionsRefGroup": 0.3005232438445091
     },
     "customConfigs": [],
     "designerId": "02966620-57bd-4906-b5a0-8027e09d5c12",
     "$viewOrder": 2,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen14452",
@@ -35,12 +35,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.21971237403340638,
-                "writerRefGroup": 0.11401617177762091,
-                "eventsRefGroup": 0.05373592139221728,
+                "readerRefGroup": 0.29601689777337015,
+                "writerRefGroup": 0.5600382233969867,
+                "eventsRefGroup": 0.3585171152371913,
                 "url": "data/menu.json",
                 "designer|userClassName": "MyAjaxProxy",
-                "functionsRefGroup": 0.5809816650580615
+                "functionsRefGroup": 0.8296867951285094
             },
             "customConfigs": [],
             "expanded": true,

@@ -10,14 +10,14 @@
         "autoLoad": true,
         "model": "DadesPacient",
         "storeId": "dadesPacient",
-        "fields": 0.5535067899618298,
-        "proxy": 0.40913107013329864,
-        "filters": 0.27049645804800093,
-        "grouper": 0.22110175155103207,
-        "sorters": 0.3107177640777081,
-        "eventsRefGroup": 0.6964338438119739,
+        "fields": 0.17665996262803674,
+        "proxy": 0.7943805959075689,
+        "filters": 0.8223893905524164,
+        "grouper": 0.7006205348297954,
+        "sorters": 0.15751057374291122,
+        "eventsRefGroup": 0.06060307030566037,
         "designer|userClassName": "DadesPac",
-        "functionsRefGroup": 0.6818750379607081
+        "functionsRefGroup": 0.1910593982320279
     },
     "customConfigs": [],
     "designerId": "38ea105f-ee49-4b55-94f4-5dbe4befe865",
@@ -33,12 +33,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.23784958524629474,
-                "writerRefGroup": 0.8236233033239841,
-                "eventsRefGroup": 0.9136434842366725,
+                "readerRefGroup": 0.968027769587934,
+                "writerRefGroup": 0.33525257534347475,
+                "eventsRefGroup": 0.11536549055017531,
                 "id": "localproxy",
                 "designer|userClassName": "MyLocalStorageProxy3",
-                "functionsRefGroup": 0.3898646361194551
+                "functionsRefGroup": 0.7107386121060699
             },
             "customConfigs": [],
             "expanded": true

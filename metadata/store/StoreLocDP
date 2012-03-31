@@ -7,22 +7,23 @@
     },
     "codeClass": null,
     "userConfig": {
+        "autoLoad": true,
         "model": "DadesPress",
         "storeId": "StoreDadesP",
-        "fields": 0.45325314649380744,
-        "proxy": 0.28706325497478247,
-        "filters": 0.2810421772301197,
-        "grouper": 0.27970173535868526,
-        "sorters": 0.7122049639001489,
-        "eventsRefGroup": 0.9560022207442671,
+        "fields": 0.4218311777804047,
+        "proxy": 0.8889892802108079,
+        "filters": 0.4905127331148833,
+        "grouper": 0.9868283770047128,
+        "sorters": 0.5157022909261286,
+        "eventsRefGroup": 0.31222014711238444,
         "designer|userClassName": "StoreLocDP",
-        "designer|userAlias": "StoreDadesP",
-        "functionsRefGroup": 0.40903269755654037
+        "designer|userAlias": null,
+        "functionsRefGroup": 0.2186602116562426
     },
     "customConfigs": [],
     "designerId": "811c22bc-db80-4f8a-bc9b-6164081e39f8",
     "$viewOrder": 0,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen12464",
@@ -33,12 +34,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.6233854182064533,
-                "writerRefGroup": 0.0666746199131012,
-                "eventsRefGroup": 0.5344637918751687,
+                "readerRefGroup": 0.8933889421168715,
+                "writerRefGroup": 0.8088676475454122,
+                "eventsRefGroup": 0.4301729700528085,
                 "id": "proxyLocalDP",
                 "designer|userClassName": "MyLocalStorageProxy1",
-                "functionsRefGroup": 0.10010842769406736
+                "functionsRefGroup": 0.7259560064412653
             },
             "customConfigs": [],
             "expanded": true

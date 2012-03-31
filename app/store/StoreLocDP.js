@@ -15,12 +15,12 @@
 
 Ext.define('RegCr.store.StoreLocDP', {
     extend: 'Ext.data.Store',
-    alias: 'store.StoreDadesP',
     requires: [
         'RegCr.model.DadesPress'
     ],
 
     config: {
+        autoLoad: true,
         model: 'RegCr.model.DadesPress',
         storeId: 'StoreDadesP',
         proxy: {

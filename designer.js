@@ -34,10 +34,16 @@ Ext.application({
 
     views: [
         'PanelPrincipal',
-        'DadesPanel'
+        'DadesPanel',
+        'HistPressio',
+        'HistGlucosa'
     ],
 
     name: 'RegCr',
+
+    phoneStartupScreen: 'phone_startup.png',
+
+    tabletStartupScreen: 'tablet_startup.png',
 
     launch: function() {
         Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});

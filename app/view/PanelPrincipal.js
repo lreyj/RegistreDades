@@ -41,10 +41,6 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 fn: 'onMynestedlistLeafItemTap',
                 event: 'leafitemtap',
                 delegate: '#mynestedlist'
-            },
-            {
-                fn: 'onNavigationviewShow',
-                event: 'show'
             }
         ]
     },
@@ -75,17 +71,21 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 {
                     xtype:'datepickerfield',
                     name:'Data',
+                    id:'DataP',
                     label:'Data',
                     dateFormat: 'd/m/Y',
                     picker: { 
                         yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),
-                        slotOrder: ['day', 'month', 'year']
+                        slotOrder: ['day', 'month', 'year'],
+                        doneButton: 'Fet',
+                        cancelButton: 'Cancel.lar'
                     },
                     value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}
                 },
                 {
                     xtype:'spinnerfield',
                     name:'Maxima',
+                    id: 'MaxP',
                     label:'M&aacute;xima',
                     minValue: 30,
                     maxValue: 300,
@@ -95,6 +95,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 {
                     xtype:'spinnerfield',
                     name:'Minima',
+                    id: 'MinP',
                     label:'M&iacute;nima',
                     minValue: 5,
                     maxValue: 200,
@@ -106,7 +107,15 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     text: 'Ok',
                     ui: 'confirm',
                     handler: function(){
-                        console.log('Desar dades de pressió');
+                        var store = Ext.data.StoreManager.lookup('StoreDadesP');
+                        var var1 = Ext.ComponentQuery.query('#DataP')[0].getValue();
+                        var var2 = Ext.ComponentQuery.query('#MaxP')[0].getValue();
+                        var var3 = Ext.ComponentQuery.query('#MinP')[0].getValue();
+                        store.add({Data: var1, maxima: var2, minima: var3});
+                        store.sync();
+                        Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);
+                        //this.pop(); 
+                        //TODO Error handling
                     }
                 }
                 ]
@@ -120,16 +129,20 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     xtype:'datepickerfield',
                     name:'Data',
                     label:'Data',
+                    id: 'Data',
                     dateFormat: 'd/m/Y',
                     picker: { 
                         yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),
-                        slotOrder: ['day', 'month', 'year']
+                        slotOrder: ['day', 'month', 'year'],
+                        doneButton: 'Fet',
+                        cancelButton: 'Cancel.lar'
                     },
                     value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}
                 },
                 {
                     xtype:'spinnerfield',
                     name:'Glucosa',
+                    id: 'Glucosa',
                     label:'Glucosa',
                     minValue: 20,
                     maxValue: 500,
@@ -141,7 +154,14 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     text: 'Ok',
                     ui: 'confirm',
                     handler: function(){
-                        console.log('Desar dades de glucosa');
+                        var store = Ext.data.StoreManager.lookup('StoreDadesG');
+                        var var1 = Ext.ComponentQuery.query('#Data')[0].getValue();
+                        var var2 = Ext.ComponentQuery.query('#Glucosa')[0].getValue();
+                        store.add({Data: var1, Glucosa: var2});
+                        store.sync();
+                        Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);
+                        //this.pop(); 
+                        //TODO Error handling
                     }
                 }
                 ]
@@ -161,12 +181,13 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 Ext.ComponentQuery.query('#GlucTgl')[0].setValue(data.get('Glucosa'));
             }
         }
+        else if (record.get('text')=='Hist&ograve;ric Pressi&oacute;'){
+            var tabPanel= Ext.create('RegCr.view.HistPressio');
+        }
+        else if (record.get('text')=='Hist&ograve;ric Glucosa'){
+            var tabPanel= Ext.create('RegCr.view.HistGlucosa');
+        }
         this.push(tabPanel);
-
-    },
-
-    onNavigationviewShow: function(component, options) {
-        console.log('Show de panel principal');
 
     }
 

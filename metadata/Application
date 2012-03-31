@@ -7,14 +7,14 @@
     },
     "codeClass": null,
     "userConfig": {
-        "actionsRefGroup": 0.13759598415344954,
+        "actionsRefGroup": 0.04313498712144792,
         "models": [
             "DadesPress",
             "DadesGluc",
             "ListItems",
             "DadesPacient"
         ],
-        "refsRefGroup": 0.024974026018753648,
+        "refsRefGroup": 0.03198159649036825,
         "stores": [
             "StoreLocDP",
             "StoreLocDG",
@@ -23,15 +23,19 @@
         ],
         "views": [
             "PanelPrincipal",
-            "DadesPanel"
+            "DadesPanel",
+            "HistPressio",
+            "HistGlucosa"
         ],
-        "beforeFiltersRefGroup": 0.257298018084839,
+        "beforeFiltersRefGroup": 0.11535462434403598,
         "designer|launch": "",
-        "routesRefGroup": 0.09974362421780825,
-        "eventsRefGroup": 0.7147283744998276,
+        "routesRefGroup": 0.1654639388434589,
+        "eventsRefGroup": 0.29496367648243904,
         "name": "RegCr",
-        "viewport": 0.07006061542779207,
-        "functionsRefGroup": 0.1938528490718454
+        "phoneStartupScreen": "phone_startup.png",
+        "tabletStartupScreen": "tablet_startup.png",
+        "viewport": 0.4847352372016758,
+        "functionsRefGroup": 0.8384766660165042
     },
     "customConfigs": [],
     "designerId": "application",

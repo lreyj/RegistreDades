@@ -1,0 +1,47 @@
+{
+    "id": "ExtBox1-ext-gen9710",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "HistGluc",
+        "ui": "light",
+        "eventsRefGroup": 0.8883493435569108,
+        "tabBarRefGroup": 0.07439720490947366,
+        "designer|userClassName": "HistGlucosa",
+        "functionsRefGroup": 0.9814235914964229
+    },
+    "customConfigs": [],
+    "designerId": "21a7f4e6-1a85-48b2-8a91-f2344e80fddd",
+    "$viewOrder": 3,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen9991",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": null,
+                "id": "LisGluc",
+                "eventsRefGroup": 0.844132385449484,
+                "itemTpl": "<div>Data {date(\"d/m/Y\")} - {Glucosa}</div>",
+                "store": "StoreDadesG",
+                "grouped": false,
+                "indexBar": 0.17178318393416703,
+                "pluginsRefGroup": 0.2662856006063521,
+                "designer|userClassName": "MyList1",
+                "functionsRefGroup": 0.8429516716860235,
+                "title": "Llista"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

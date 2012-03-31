@@ -19,9 +19,6 @@ Ext.define('RegCr.model.DadesGluc', {
     config: {
         fields: [
             {
-                name: 'id'
-            },
-            {
                 name: 'Data',
                 type: 'date'
             },

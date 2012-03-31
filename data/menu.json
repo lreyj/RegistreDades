@@ -4,14 +4,14 @@
             "text": "Pressi&oacute;",
             "items": [
                 { "text": "Registrar Pressi&oacute;", "leaf": true },
-                { "text": "Hist&ograve;ric", "leaf": true }
+                { "text": "Hist&ograve;ric Pressi&oacute;", "leaf": true }
             ]
         },
         {
             "text": "Glucosa",
             "items": [
                 { "text": "Registrar Glucosa", "leaf": true },
-                { "text": "Hist&ograve;ric", "leaf": true }
+                { "text": "Hist&ograve;ric Glucosa", "leaf": true }
             ]
         },
 		{

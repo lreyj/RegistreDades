@@ -92,6 +92,10 @@ Ext.define('RegCr.view.DadesPanel', {
             store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});
             store.sync();
         }
+        Ext.Msg.alert('Dades Pacient', 'Les dades s\'han desat correctament.', Ext.emptyFn);
+        this.getParent().pop();
+        //TODO Error handling
+
     }
 
 });

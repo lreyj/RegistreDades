@@ -19,9 +19,6 @@ Ext.define('RegCr.model.DadesPress', {
     config: {
         fields: [
             {
-                name: 'id'
-            },
-            {
                 name: 'minima'
             },
             {

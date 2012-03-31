@@ -10,12 +10,12 @@
         "designer|initialView": true,
         "height": null,
         "ui": "light",
-        "eventsRefGroup": 0.8580962445121258,
+        "eventsRefGroup": 0.14981288323178887,
         "defaultBackButtonText": "Tornar",
-        "navigationBarRefGroup": 0.8770283523481339,
+        "navigationBarRefGroup": 0.5231327025685459,
         "designer|userClassName": "PanelPrincipal",
         "designer|userAlias": "PanPrinc",
-        "functionsRefGroup": 0.22030627727508545
+        "functionsRefGroup": 0.31256133294664323
     },
     "customConfigs": [],
     "designerId": "5e0dc7e9-6761-473c-8fe7-a6a7cb52cdfe",
@@ -34,12 +34,12 @@
                 "docked": null,
                 "height": 300,
                 "itemId": "mynestedlist",
-                "eventsRefGroup": 0.3264046034310013,
+                "eventsRefGroup": 0.35950921662151814,
                 "store": "MenuList",
                 "title": "Registre cr&ograve;nics",
-                "toolbarRefGroup": 0.16127042355947196,
+                "toolbarRefGroup": 0.5512199886143208,
                 "designer|userClassName": "MyNestedList",
-                "functionsRefGroup": 0.5548255466856062,
+                "functionsRefGroup": 0.04801343148574233,
                 "activeItem": 1
             },
             "customConfigs": [],
@@ -55,7 +55,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "fn": "onMynestedlistLeafItemTap",
-                        "implHandler": "\nif (record.get('text')=='Detalls'){\n    var tabPanel = Ext.create('Ext.Panel', {\n        title: 'Registre cr&ograve;nics',\n        cls: 'home',\n        styleHtmlContent:true,\n        items: [\n        {\n            html: [\n            \"<h2>Registre de dades per pacients Cr&ograve;nics</h2><br>\",\n            \"Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0<br>\",\n            \"<br><br> Autor: Lluis Rey Junquera\",\n            \"<br>Coordinador: Carlos Sanchez Rosa\"\n            ].join(\"\")\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar Pressi&oacute;'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Registre de Pressi&oacute;',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Data',\n            label:'Data',\n            dateFormat: 'd/m/Y',\n            picker: { \n                yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),\n                slotOrder: ['day', 'month', 'year']\n            },\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Maxima',\n            label:'M&aacute;xima',\n            minValue: 30,\n            maxValue: 300,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Minima',\n            label:'M&iacute;nima',\n            minValue: 5,\n            maxValue: 200,\n            increment: 1,\n            cycle: true\n        },\t\t\n        {\n            xtype: 'button',\n            text: 'Ok',\n            ui: 'confirm',\n            handler: function(){\n                console.log('Desar dades de pressió');\n            }\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar Glucosa'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Registre de Pressi&oacute;',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Data',\n            label:'Data',\n            dateFormat: 'd/m/Y',\n            picker: { \n                yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),\n                slotOrder: ['day', 'month', 'year']\n            },\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Glucosa',\n            label:'Glucosa',\n            minValue: 20,\n            maxValue: 500,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype: 'button',\n            text: 'Ok',\n            ui: 'confirm',\n            handler: function(){\n                console.log('Desar dades de glucosa');\n            }\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Dades Pacient'){\n    var tabPanel= Ext.create('RegCr.view.DadesPanel');\n    var store = Ext.data.StoreManager.lookup('dadesPacient');\n    console.log('Load data into dadesPacient form');\n    if (store.getCount() > 0){\n        var data = store.getAt(0);\n        console.log(data.get('Codi'));\n        Ext.ComponentQuery.query('#Codi')[0].setValue(data.get('Codi'));\n        Ext.ComponentQuery.query('#Nom')[0].setValue(data.get('Nom'));\n        Ext.ComponentQuery.query('#email')[0].setValue(data.get('eMail'));\n        Ext.ComponentQuery.query('#PressTgl')[0].setValue(data.get('Pressio'));\n        Ext.ComponentQuery.query('#GlucTgl')[0].setValue(data.get('Glucosa'));\n    }\n}\nthis.push(tabPanel);\n",
+                        "implHandler": "\nif (record.get('text')=='Detalls'){\n    var tabPanel = Ext.create('Ext.Panel', {\n        title: 'Registre cr&ograve;nics',\n        cls: 'home',\n        styleHtmlContent:true,\n        items: [\n        {\n            html: [\n            \"<h2>Registre de dades per pacients Cr&ograve;nics</h2><br>\",\n            \"Registre de dades de pacients cr&ograve;nics<br>Versi&oacute; 1.0<br>\",\n            \"<br><br> Autor: Lluis Rey Junquera\",\n            \"<br>Coordinador: Carlos Sanchez Rosa\"\n            ].join(\"\")\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar Pressi&oacute;'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Registre de Pressi&oacute;',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Data',\n            id:'DataP',\n            label:'Data',\n            dateFormat: 'd/m/Y',\n            picker: { \n                yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),\n                slotOrder: ['day', 'month', 'year'],\n                doneButton: 'Fet',\n                cancelButton: 'Cancel.lar'\n            },\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Maxima',\n            id: 'MaxP',\n            label:'M&aacute;xima',\n            minValue: 30,\n            maxValue: 300,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Minima',\n            id: 'MinP',\n            label:'M&iacute;nima',\n            minValue: 5,\n            maxValue: 200,\n            increment: 1,\n            cycle: true\n        },\t\t\n        {\n            xtype: 'button',\n            text: 'Ok',\n            ui: 'confirm',\n            handler: function(){\n                var store = Ext.data.StoreManager.lookup('StoreDadesP');\n                var var1 = Ext.ComponentQuery.query('#DataP')[0].getValue();\n                var var2 = Ext.ComponentQuery.query('#MaxP')[0].getValue();\n                var var3 = Ext.ComponentQuery.query('#MinP')[0].getValue();\n                store.add({Data: var1, maxima: var2, minima: var3});\n                store.sync();\n                Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);\n                //this.pop(); \n                //TODO Error handling\n            }\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Registrar Glucosa'){\n    var tabPanel= Ext.create('Ext.Panel', {\n        title: 'Registre de Pressi&oacute;',\n        items: [\n        {\n            xtype:'datepickerfield',\n            name:'Data',\n            label:'Data',\n            id: 'Data',\n            dateFormat: 'd/m/Y',\n            picker: { \n                yearFrom: new Date().getFullYear()-1, yearTo: new Date().getFullYear(),\n                slotOrder: ['day', 'month', 'year'],\n                doneButton: 'Fet',\n                cancelButton: 'Cancel.lar'\n            },\n            value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}\n        },\n        {\n            xtype:'spinnerfield',\n            name:'Glucosa',\n            id: 'Glucosa',\n            label:'Glucosa',\n            minValue: 20,\n            maxValue: 500,\n            increment: 1,\n            cycle: true\n        },\n        {\n            xtype: 'button',\n            text: 'Ok',\n            ui: 'confirm',\n            handler: function(){\n                var store = Ext.data.StoreManager.lookup('StoreDadesG');\n                var var1 = Ext.ComponentQuery.query('#Data')[0].getValue();\n                var var2 = Ext.ComponentQuery.query('#Glucosa')[0].getValue();\n                store.add({Data: var1, Glucosa: var2});\n                store.sync();\n                Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);\n                //this.pop(); \n                //TODO Error handling\n            }\n        }\n        ]\n    });\n}\nelse if (record.get('text')=='Dades Pacient'){\n    var tabPanel= Ext.create('RegCr.view.DadesPanel');\n    var store = Ext.data.StoreManager.lookup('dadesPacient');\n    console.log('Load data into dadesPacient form');\n    if (store.getCount() > 0){\n        var data = store.getAt(0);\n        console.log(data.get('Codi'));\n        Ext.ComponentQuery.query('#Codi')[0].setValue(data.get('Codi'));\n        Ext.ComponentQuery.query('#Nom')[0].setValue(data.get('Nom'));\n        Ext.ComponentQuery.query('#email')[0].setValue(data.get('eMail'));\n        Ext.ComponentQuery.query('#PressTgl')[0].setValue(data.get('Pressio'));\n        Ext.ComponentQuery.query('#GlucTgl')[0].setValue(data.get('Glucosa'));\n    }\n}\nelse if (record.get('text')=='Hist&ograve;ric Pressi&oacute;'){\n    var tabPanel= Ext.create('RegCr.view.HistPressio');\n}\nelse if (record.get('text')=='Hist&ograve;ric Glucosa'){\n    var tabPanel= Ext.create('RegCr.view.HistGlucosa');\n}\nthis.push(tabPanel);\n",
                         "name": "leafitemtap",
                         "designer|userClassName": "onMynestedlistLeafItemTap"
                     },
@@ -73,9 +73,9 @@
                     "userConfig": {
                         "cls": null,
                         "height": null,
-                        "eventsRefGroup": 0.78330840729177,
+                        "eventsRefGroup": 0.4415847114287317,
                         "designer|userClassName": "MyToolbar",
-                        "functionsRefGroup": 0.44011201220564544
+                        "functionsRefGroup": 0.76632254361175
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -93,27 +93,10 @@
             "userConfig": {
                 "height": 38,
                 "tpl": null,
-                "eventsRefGroup": 0.1601830767467618,
+                "eventsRefGroup": 0.14139238349162042,
                 "designer|userClassName": "MyNavigationBar",
-                "functionsRefGroup": 0.060005418956279755,
+                "functionsRefGroup": 0.8208491923287511,
                 "title": null
-            },
-            "customConfigs": [],
-            "expanded": true
-        },
-        {
-            "id": "ExtBox1-ext-gen4933",
-            "type": "basiceventbinding",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "fn": "onNavigationviewShow",
-                "implHandler": "console.log('Show de panel principal');\n",
-                "name": "show",
-                "designer|userClassName": "onNavigationviewShow"
             },
             "customConfigs": [],
             "expanded": true

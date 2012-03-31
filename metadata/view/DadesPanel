@@ -8,14 +8,14 @@
     "codeClass": null,
     "userConfig": {
         "id": "DadesPac",
-        "eventsRefGroup": 0.9503169662784785,
+        "eventsRefGroup": 0.898387937573716,
         "designer|userClassName": "DadesPanel",
-        "functionsRefGroup": 0.0851691656280309
+        "functionsRefGroup": 0.5238628997467458
     },
     "customConfigs": [],
     "designerId": "cfe17ddd-a43a-4f99-be73-c7999dd71378",
     "$viewOrder": 1,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen6367",
@@ -27,10 +27,10 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "myfieldset1",
-                "eventsRefGroup": 0.13956007407978177,
+                "eventsRefGroup": 0.17484105634503067,
                 "title": "Dades",
                 "designer|userClassName": "MyFieldSet",
-                "functionsRefGroup": 0.8416972721461207
+                "functionsRefGroup": 0.8541476123500615
             },
             "customConfigs": [],
             "expanded": true,
@@ -45,10 +45,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "Codi",
-                        "eventsRefGroup": 0.9468177335802466,
+                        "eventsRefGroup": 0.7427599357906729,
                         "label": "Codi",
                         "designer|userClassName": "MyNumberField",
-                        "functionsRefGroup": 0.06819761800579727
+                        "functionsRefGroup": 0.5827471758238971
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -63,10 +63,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "Nom",
-                        "eventsRefGroup": 0.8884875422809273,
+                        "eventsRefGroup": 0.5692547273356467,
                         "label": "Nom",
                         "designer|userClassName": "MyTextField2",
-                        "functionsRefGroup": 0.29746489599347115
+                        "functionsRefGroup": 0.897405122872442
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -81,11 +81,11 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "email",
-                        "eventsRefGroup": 0.33477367903105915,
+                        "eventsRefGroup": 0.45913715241476893,
                         "label": "Mail",
                         "placeHolder": "email@example.com",
                         "designer|userClassName": "MyEmailField",
-                        "functionsRefGroup": 0.7379530787002295
+                        "functionsRefGroup": 0.5885557034052908
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -100,10 +100,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "PressTgl",
-                        "eventsRefGroup": 0.24104902823455632,
+                        "eventsRefGroup": 0.7512710962910205,
                         "label": "Pressió",
                         "designer|userClassName": "MyToggleField1",
-                        "functionsRefGroup": 0.37823915597982705
+                        "functionsRefGroup": 0.21853283466771245
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -118,10 +118,10 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "GlucTgl",
-                        "eventsRefGroup": 0.6486923194024712,
+                        "eventsRefGroup": 0.9023437951691449,
                         "label": "Glucosa",
                         "designer|userClassName": "MyToggleField",
-                        "functionsRefGroup": 0.7159068319015205
+                        "functionsRefGroup": 0.039805446518585086
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -137,10 +137,10 @@
                     "userConfig": {
                         "id": "Grabar",
                         "itemId": "mybutton",
-                        "eventsRefGroup": 0.17680575256235898,
+                        "eventsRefGroup": 0.9634416883345693,
                         "text": "Grabar",
                         "designer|userClassName": "MyButton",
-                        "functionsRefGroup": 0.5415573299396783
+                        "functionsRefGroup": 0.3599664375651628
                     },
                     "customConfigs": [],
                     "expanded": true,
@@ -155,7 +155,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "fn": "onGrabarTap",
-                                "implHandler": "var store = Ext.data.StoreManager.lookup('dadesPacient');\n\nvar num =  Ext.ComponentQuery.query('#Codi')[0].getValue();\nvar nom = Ext.ComponentQuery.query('#Nom')[0].getValue();\nvar mail = Ext.ComponentQuery.query('#email')[0].getValue();\nvar pres = Ext.ComponentQuery.query('#PressTgl')[0].getValue();\nvar gluc = Ext.ComponentQuery.query('#GlucTgl')[0].getValue();\n\n//var last = store.max();\nvar isFirst = store.getAt(0);\n//if not exists, build the first item (this area needs to be replaced with a function that construct a whole settings file\n//console.log(last);\nif (store.getCount()>0) {\n    //console.log('inside');\n    store.removeAt(0);\n    store.sync();\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\n    store.sync();\n}\nelse{\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\n    store.sync();\n}",
+                                "implHandler": "var store = Ext.data.StoreManager.lookup('dadesPacient');\n\nvar num =  Ext.ComponentQuery.query('#Codi')[0].getValue();\nvar nom = Ext.ComponentQuery.query('#Nom')[0].getValue();\nvar mail = Ext.ComponentQuery.query('#email')[0].getValue();\nvar pres = Ext.ComponentQuery.query('#PressTgl')[0].getValue();\nvar gluc = Ext.ComponentQuery.query('#GlucTgl')[0].getValue();\n\n//var last = store.max();\nvar isFirst = store.getAt(0);\n//if not exists, build the first item (this area needs to be replaced with a function that construct a whole settings file\n//console.log(last);\nif (store.getCount()>0) {\n    //console.log('inside');\n    store.removeAt(0);\n    store.sync();\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\n    store.sync();\n}\nelse{\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\n    store.sync();\n}\nExt.Msg.alert('Dades Pacient', 'Les dades s\\'han desat correctament.', Ext.emptyFn);\nthis.getParent().pop();\n//TODO Error handling\n",
                                 "name": "tap",
                                 "designer|userClassName": "onGrabarTap"
                             },
