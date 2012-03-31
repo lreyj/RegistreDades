@@ -95,11 +95,11 @@
         },
         "cfe17ddd-a43a-4f99-be73-c7999dd71378": {
             "paths": [
-                "metadata/view/DadesPacient",
-                "app/view/override/DadesPacient.js",
-                "app/view/DadesPacient.js"
+                "metadata/view/DadesPanel",
+                "app/view/override/DadesPanel.js",
+                "app/view/DadesPanel.js"
             ],
-            "className": "DadesPacient"
+            "className": "DadesPanel"
         }
     },
     "expandedState": {

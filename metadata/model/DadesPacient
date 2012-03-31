@@ -7,12 +7,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.46624194947071373,
-        "fields": 0.7951526551041752,
-        "proxy": 0.7222940011415631,
-        "validations": 0.005217190366238356,
+        "associations": 0.12377785169519484,
+        "fields": 0.5871703543234617,
+        "proxy": 0.2752511247526854,
+        "validations": 0.8140594097785652,
         "designer|userClassName": "DadesPacient",
-        "functionsRefGroup": 0.6645524671766907
+        "functionsRefGroup": 0.9678944973275065
     },
     "customConfigs": [],
     "designerId": "8d6a7e2b-09ea-4a51-9e4d-7d75b9173f41",
@@ -28,9 +28,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.8890248881652951,
+                "convert": 0.6720889492426068,
                 "name": "Codi",
-                "designer|userClassName": "MyField"
+                "designer|userClassName": "MyField",
+                "functionsRefGroup": 0.4317740930709988
             },
             "customConfigs": [],
             "expanded": true
@@ -44,9 +45,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.5768702263012528,
+                "convert": 0.6849008875433356,
                 "name": "Nom",
-                "designer|userClassName": "MyField1"
+                "designer|userClassName": "MyField1",
+                "functionsRefGroup": 0.7807682021521032
             },
             "customConfigs": [],
             "expanded": true
@@ -60,9 +62,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.18531398009508848,
+                "convert": 0.1644963442813605,
                 "name": "eMail",
-                "designer|userClassName": "MyField2"
+                "designer|userClassName": "MyField2",
+                "functionsRefGroup": 0.815745658474043
             },
             "customConfigs": [],
             "expanded": true
@@ -76,9 +79,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9654894340783358,
+                "convert": 0.17183262947946787,
                 "name": "Pressio",
-                "designer|userClassName": "MyField3"
+                "designer|userClassName": "MyField3",
+                "functionsRefGroup": 0.5006669873837382
             },
             "customConfigs": [],
             "expanded": true
@@ -92,9 +96,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.44793602521531284,
+                "convert": 0.020149132469668984,
                 "name": "Glucosa",
-                "designer|userClassName": "MyField4"
+                "designer|userClassName": "MyField4",
+                "functionsRefGroup": 0.7816393650136888
             },
             "customConfigs": [],
             "expanded": true

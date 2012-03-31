@@ -41,6 +41,10 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 fn: 'onMynestedlistLeafItemTap',
                 event: 'leafitemtap',
                 delegate: '#mynestedlist'
+            },
+            {
+                fn: 'onNavigationviewShow',
+                event: 'show'
             }
         ]
     },
@@ -144,9 +148,25 @@ Ext.define('RegCr.view.PanelPrincipal', {
             });
         }
         else if (record.get('text')=='Dades Pacient'){
-            var tabPanel= Ext.create('RegCr.view.DadesPacient');
+            var tabPanel= Ext.create('RegCr.view.DadesPanel');
+            var store = Ext.data.StoreManager.lookup('dadesPacient');
+            console.log('Load data into dadesPacient form');
+            if (store.getCount() > 0){
+                var data = store.getAt(0);
+                console.log(data.get('Codi'));
+                Ext.ComponentQuery.query('#Codi')[0].setValue(data.get('Codi'));
+                Ext.ComponentQuery.query('#Nom')[0].setValue(data.get('Nom'));
+                Ext.ComponentQuery.query('#email')[0].setValue(data.get('eMail'));
+                Ext.ComponentQuery.query('#PressTgl')[0].setValue(data.get('Pressio'));
+                Ext.ComponentQuery.query('#GlucTgl')[0].setValue(data.get('Glucosa'));
+            }
         }
         this.push(tabPanel);
+
+    },
+
+    onNavigationviewShow: function(component, options) {
+        console.log('Show de panel principal');
 
     }
 

@@ -34,12 +34,12 @@ Ext.application({
 
     views: [
         'PanelPrincipal',
-        'DadesPacient'
+        'DadesPanel'
     ],
 
     name: 'RegCr',
 
     launch: function() {
-        Ext.create('RegCr.view.DadesPacient', {fullscreen: true});
+        Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});
     }
 });
