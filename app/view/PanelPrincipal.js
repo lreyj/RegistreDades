@@ -144,56 +144,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
             });
         }
         else if (record.get('text')=='Dades Pacient'){
-            var tabPanel= Ext.create('Ext.Panel', {
-                title: 'Dades Personals',
-
-                items: [
-                {
-                    xtype: 'fieldset',
-                    title: 'Dades',
-                    instructions: 'El codi es el seu Identificador de pacient a la Cl&iacute;nica.<br>L\'adreça de correu pot ser necess&agrave;ria per contactar amb vost&egrave;',
-                    items: [
-                    {
-                        xtype: 'numberfield',
-                        label: 'Codi',
-                        name: 'Codi'
-                    },
-                    {
-                        xtype: 'textfield',
-                        itemId: 'Nom',
-                        label: 'Nom'
-                    },
-                    {
-                        xtype: 'emailfield',
-                        label: 'Correu',
-                        placeHolder: 'email@exemple.com'
-                    },
-                    {
-                        xtype: 'togglefield',
-                        itemId: 'PressioTgl',
-                        label: 'Pressi&oacute;',
-                        value: 1
-                    },
-                    {
-                        xtype: 'togglefield',
-                        itemId: 'GlucosaTgl',
-                        label: 'Glucosa',
-                        value: 1
-                    },
-                    {
-                        xtype: 'button',
-                        itemId: 'dadesbutton',
-                        ui: 'confirm-round',
-                        text: 'Desar',
-                        handler: function(){
-                            console.log('Desar dades d\'usuari');
-                        }
-                    }
-                    ]
-                }
-                ]
-            });
-
+            var tabPanel= Ext.create('RegCr.view.DadesPacient');
         }
         this.push(tabPanel);
 

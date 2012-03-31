@@ -21,14 +21,6 @@
     "xdsBuild": "341",
     "framework": "touch20",
     "topInstanceFileMap": {
-        "16181103-af94-43b4-94a8-5df26f5c93d4": {
-            "paths": [
-                "metadata/model/Usuari",
-                "app/model/override/Usuari.js",
-                "app/model/Usuari.js"
-            ],
-            "className": "Usuari"
-        },
         "23189ef6-78fd-4c29-8fc8-12fd37bbfdb3": {
             "paths": [
                 "metadata/model/DadesPress",
@@ -85,21 +77,29 @@
             ],
             "className": "PanelPrincipal"
         },
-        "41727907-180a-4a4a-9b60-7abfc87b484a": {
+        "38ea105f-ee49-4b55-94f4-5dbe4befe865": {
             "paths": [
-                "metadata/store/StLocUser",
-                "app/store/override/StLocUser.js",
-                "app/store/StLocUser.js"
+                "metadata/store/DadesPac",
+                "app/store/override/DadesPac.js",
+                "app/store/DadesPac.js"
             ],
-            "className": "StLocUser"
+            "className": "DadesPac"
         },
-        "ab780353-6521-4790-b178-379d0d1c075c": {
+        "8d6a7e2b-09ea-4a51-9e4d-7d75b9173f41": {
             "paths": [
-                "metadata/view/MyFormPanel1",
-                "app/view/override/MyFormPanel1.js",
-                "app/view/MyFormPanel1.js"
+                "metadata/model/DadesPacient",
+                "app/model/override/DadesPacient.js",
+                "app/model/DadesPacient.js"
             ],
-            "className": "MyFormPanel1"
+            "className": "DadesPacient"
+        },
+        "cfe17ddd-a43a-4f99-be73-c7999dd71378": {
+            "paths": [
+                "metadata/view/DadesPacient",
+                "app/view/override/DadesPacient.js",
+                "app/view/DadesPacient.js"
+            ],
+            "className": "DadesPacient"
         }
     },
     "expandedState": {

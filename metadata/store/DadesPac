@@ -1,0 +1,46 @@
+{
+    "id": "ExtBox1-ext-gen9293",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "DadesPacient",
+        "storeId": "dadesPacient",
+        "fields": 0.2091238391585648,
+        "proxy": 0.46123316092416644,
+        "filters": 0.5574109579902142,
+        "grouper": 0.03602538304403424,
+        "sorters": 0.5470031374134123,
+        "eventsRefGroup": 0.5321244234219193,
+        "designer|userClassName": "DadesPac",
+        "functionsRefGroup": 0.9728484733495861
+    },
+    "customConfigs": [],
+    "designerId": "38ea105f-ee49-4b55-94f4-5dbe4befe865",
+    "$viewOrder": 3,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen10103",
+            "type": "localstorageproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "readerRefGroup": 0.5470455691684037,
+                "writerRefGroup": 0.9996784918475896,
+                "eventsRefGroup": 0.7505845932755619,
+                "id": "localproxy",
+                "designer|userClassName": "MyLocalStorageProxy3"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

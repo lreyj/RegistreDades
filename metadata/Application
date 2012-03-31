@@ -7,31 +7,31 @@
     },
     "codeClass": null,
     "userConfig": {
-        "actionsRefGroup": 0.5709366200026125,
+        "actionsRefGroup": 0.47903666691854596,
         "models": [
-            "Usuari",
             "DadesPress",
             "DadesGluc",
-            "ListItems"
+            "ListItems",
+            "DadesPacient"
         ],
-        "refsRefGroup": 0.7294992676470429,
+        "refsRefGroup": 0.11157622723840177,
         "stores": [
             "StoreLocDP",
             "StoreLocDG",
             "MIniciStore",
-            "StLocUser"
+            "DadesPac"
         ],
         "views": [
             "PanelPrincipal",
-            "MyFormPanel1"
+            "DadesPacient"
         ],
-        "beforeFiltersRefGroup": 0.020676980260759592,
+        "beforeFiltersRefGroup": 0.33577196951955557,
         "designer|launch": "",
-        "routesRefGroup": 0.663916997378692,
-        "eventsRefGroup": 0.7056056505534798,
+        "routesRefGroup": 0.5637134977150708,
+        "eventsRefGroup": 0.5034222947433591,
         "name": "RegCr",
-        "viewport": 0.518786400090903,
-        "functionsRefGroup": 0.6511716342065483
+        "viewport": 0.7625657154712826,
+        "functionsRefGroup": 0.7483562103006989
     },
     "customConfigs": [],
     "designerId": "application",

@@ -22,12 +22,10 @@ Ext.define('RegCr.model.DadesPress', {
                 name: 'id'
             },
             {
-                name: 'minima',
-                type: 'auto'
+                name: 'minima'
             },
             {
-                name: 'maxima',
-                type: 'auto'
+                name: 'maxima'
             },
             {
                 name: 'Data',

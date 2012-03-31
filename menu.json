@@ -1,0 +1,25 @@
+{
+    "items": [
+        {
+            "text": "Pressi&oacute;",
+            "items": [
+                { "text": "Registrar Pressi&oacute;", "leaf": true },
+                { "text": "Hist&ograve;ric", "leaf": true }
+            ]
+        },
+        {
+            "text": "Glucosa",
+            "items": [
+                { "text": "Registrar Glucosa", "leaf": true },
+                { "text": "Hist&ograve;ric", "leaf": true }
+            ]
+        },
+		{
+            "text": "Configuraci&oacute;",
+            "items": [
+                { "text": "Dades Pacient", "leaf": true },
+                { "text": "Detalls", "leaf": true }
+            ]
+        },
+    ]
+}

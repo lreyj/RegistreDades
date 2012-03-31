@@ -7,18 +7,18 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.5023999370168895,
-        "fields": 0.5464802791830152,
-        "proxy": 0.3966841325163841,
-        "validations": 0.38185106264427304,
+        "associations": 0.5669414878357202,
+        "fields": 0.7679185641463846,
+        "proxy": 0.16390735725872219,
+        "validations": 0.6411204228643328,
         "designer|userClassName": "DadesPress",
         "designer|userAlias": "pressio",
-        "functionsRefGroup": 0.6636347600724548
+        "functionsRefGroup": 0.9177156568039209
     },
     "customConfigs": [],
     "designerId": "23189ef6-78fd-4c29-8fc8-12fd37bbfdb3",
-    "$viewOrder": 1,
-    "expanded": true,
+    "$viewOrder": 0,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen8906",
@@ -29,10 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.3036684731487185,
+                "convert": 0.7806869989726692,
                 "name": "id",
                 "designer|userClassName": "MyField3",
-                "functionsRefGroup": 0.8567516198381782
+                "functionsRefGroup": 0.2512522782199085
             },
             "customConfigs": [],
             "expanded": true
@@ -46,11 +46,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.7684649147558957,
+                "convert": 0.4771489826962352,
                 "name": "minima",
-                "type": "auto",
+                "type": null,
                 "designer|userClassName": "MyField4",
-                "functionsRefGroup": 0.9521855341736227
+                "functionsRefGroup": 0.780851440038532
             },
             "customConfigs": [],
             "expanded": true
@@ -64,11 +64,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.05264829727821052,
+                "convert": 0.19556201784871519,
                 "name": "maxima",
-                "type": "auto",
+                "type": null,
                 "designer|userClassName": "MyField5",
-                "functionsRefGroup": 0.41805345728062093
+                "functionsRefGroup": 0.6798842530697584
             },
             "customConfigs": [],
             "expanded": true
@@ -82,11 +82,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9741294393315911,
+                "convert": 0.18229321553371847,
                 "name": "Data",
                 "type": "date",
                 "designer|userClassName": "MyField6",
-                "functionsRefGroup": 0.027054433012381196
+                "functionsRefGroup": 0.8596163459587842
             },
             "customConfigs": [],
             "expanded": true

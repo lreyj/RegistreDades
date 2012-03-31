@@ -1,0 +1,206 @@
+{
+    "id": "ExtBox1-ext-gen22115",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "id": "DadesPac",
+        "eventsRefGroup": 0.06395639246329665,
+        "designer|userClassName": "DadesPacient",
+        "functionsRefGroup": 0.13288627285510302
+    },
+    "customConfigs": [],
+    "designerId": "cfe17ddd-a43a-4f99-be73-c7999dd71378",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen6367",
+            "type": "fieldset",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "eventsRefGroup": 0.39801916386932135,
+                "title": "Dades",
+                "designer|userClassName": "MyFieldSet",
+                "functionsRefGroup": 0.8989879430737346
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen6376",
+                    "type": "numberfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "Codi",
+                        "eventsRefGroup": 0.2878974708728492,
+                        "label": "Codi",
+                        "designer|userClassName": "MyNumberField",
+                        "functionsRefGroup": 0.15059945988468826
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen6383",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "Nom",
+                        "eventsRefGroup": 0.3387487046420574,
+                        "label": "Nom",
+                        "designer|userClassName": "MyTextField2",
+                        "functionsRefGroup": 0.22640469926409423
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen13676",
+                    "type": "emailfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "email",
+                        "eventsRefGroup": 0.8760712340008467,
+                        "label": "Mail",
+                        "placeHolder": "email@example.com",
+                        "designer|userClassName": "MyEmailField",
+                        "functionsRefGroup": 0.29817288904450834
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen16832",
+                    "type": "togglefield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "PressTgl",
+                        "eventsRefGroup": 0.4504019015002996,
+                        "label": "Pressió",
+                        "designer|userClassName": "MyToggleField1",
+                        "functionsRefGroup": 0.38136642845347524
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen16670",
+                    "type": "togglefield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "GlucTgl",
+                        "eventsRefGroup": 0.4539702069014311,
+                        "label": "Glucosa",
+                        "designer|userClassName": "MyToggleField",
+                        "functionsRefGroup": 0.06916588684543967
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen5764",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "Grabar",
+                        "itemId": "mybutton",
+                        "eventsRefGroup": 0.39193745818920434,
+                        "text": "Grabar",
+                        "designer|userClassName": "MyButton",
+                        "functionsRefGroup": 0.6755704630631953
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen8754",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onGrabarTap",
+                                "implHandler": "var store = Ext.data.StoreManager.lookup('dadesPacient');\n\nvar num =  Ext.ComponentQuery.query('#Codi')[0].getValue();\nvar nom = Ext.ComponentQuery.query('#Nom')[0].getValue();\nvar mail = Ext.ComponentQuery.query('#email')[0].getValue();\nvar pres = Ext.ComponentQuery.query('#PressTgl')[0].getValue();\nvar gluc = Ext.ComponentQuery.query('#GlucTgl')[0].getValue();\n\n//var last = store.max();\nvar isFirst = store.getAt(0);\n//if not exists, build the first item (this area needs to be replaced with a function that construct a whole settings file\n//console.log(last);\nif (store.getCount()>0) {\n    //console.log('inside');\n    store.removeAt(0);\n    store.sync();\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\n    store.sync();\n}\nelse{\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\n    store.sync();\n}",
+                                "name": "tap",
+                                "designer|userClassName": "onGrabarTap"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen5933",
+                    "type": "dataview",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 200,
+                        "eventsRefGroup": 0.6804264057427645,
+                        "itemTpl": "<div>{Codi} - {Nom} - {eMail} - {Pressio} - {Glucosa}</div>",
+                        "store": "dadesPacient",
+                        "designer|userClassName": "MyDataView",
+                        "functionsRefGroup": 0.3408862240612507
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen44049",
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDadesPacShow",
+                "implHandler": "var store = Ext.data.StoreManager.lookup('dadesPacient');\nconsole.log(store);\nif (store.getCount() > 0){\n    var data = store.getAt(0);\n    console.log(data.get('Codi'));\n    Ext.ComponentQuery.query('#Codi')[0].setValue(data.get('Codi'));\n    Ext.ComponentQuery.query('#Nom')[0].setValue(data.get('Nom'));\n    Ext.ComponentQuery.query('#email')[0].setValue(data.get('eMail'));\n    Ext.ComponentQuery.query('#PressTgl')[0].setValue(data.get('Pressio'));\n    Ext.ComponentQuery.query('#GlucTgl')[0].setValue(data.get('Glucosa'));\n}",
+                "name": "show",
+                "designer|userClassName": "onDadesPacShow"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

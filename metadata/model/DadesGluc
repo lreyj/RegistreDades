@@ -7,18 +7,18 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.18522312282584608,
-        "fields": 0.1610212775412947,
-        "proxy": 0.46419134526513517,
-        "validations": 0.9685048027895391,
+        "associations": 0.030006871791556478,
+        "fields": 0.08873384934850037,
+        "proxy": 0.3511031325906515,
+        "validations": 0.27432039729319513,
         "designer|userClassName": "DadesGluc",
         "designer|userAlias": "glucosa",
-        "functionsRefGroup": 0.6237696199677885
+        "functionsRefGroup": 0.5152991688810289
     },
     "customConfigs": [],
     "designerId": "ec63eda9-cbea-42bf-bcf7-5e82b402a515",
-    "$viewOrder": 2,
-    "expanded": true,
+    "$viewOrder": 1,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen10217",
@@ -29,10 +29,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.6825925735756755,
+                "convert": 0.8153767951298505,
                 "name": "id",
                 "designer|userClassName": "MyField7",
-                "functionsRefGroup": 0.38627369119785726
+                "functionsRefGroup": 0.5180720118805766
             },
             "customConfigs": [],
             "expanded": true
@@ -46,11 +46,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.9728327919729054,
+                "convert": 0.809802653035149,
                 "name": "Data",
                 "type": "date",
                 "designer|userClassName": "MyField8",
-                "functionsRefGroup": 0.14660483202897012
+                "functionsRefGroup": 0.40883473632857203
             },
             "customConfigs": [],
             "expanded": true
@@ -64,10 +64,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.30327446945011616,
+                "convert": 0.9608664950355887,
                 "name": "Glucosa",
                 "designer|userClassName": "MyField9",
-                "functionsRefGroup": 0.039863234385848045
+                "functionsRefGroup": 0.8827616856433451
             },
             "customConfigs": [],
             "expanded": true
