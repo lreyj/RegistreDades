@@ -41,8 +41,9 @@ Ext.application({
     tabletStartupScreen: 'tablet_startup.png',
 
     launch: function() {
+        Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});  
 
-        Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});
+
     }
 
 });

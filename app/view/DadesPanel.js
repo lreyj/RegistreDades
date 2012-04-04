@@ -80,7 +80,7 @@ Ext.define('RegCr.view.DadesPanel', {
         //var last = store.max();
         var isFirst = store.getAt(0);
         //if not exists, build the first item (this area needs to be replaced with a function that construct a whole settings file
-        //console.log(last);
+        //console.log(store.getCount());
         if (store.getCount()>0) {
             //console.log('inside');
             store.removeAt(0);
@@ -92,6 +92,7 @@ Ext.define('RegCr.view.DadesPanel', {
             store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});
             store.sync();
         }
+
         Ext.Msg.alert('Dades Pacient', 'Les dades s\'han desat correctament.', Ext.emptyFn);
         this.getParent().pop();
         //TODO Error handling

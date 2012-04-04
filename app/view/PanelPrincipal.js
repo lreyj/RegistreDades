@@ -41,6 +41,10 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 fn: 'onMynestedlistLeafItemTap',
                 event: 'leafitemtap',
                 delegate: '#mynestedlist'
+            },
+            {
+                fn: 'onNavigationviewShow',
+                event: 'show'
             }
         ]
     },
@@ -170,7 +174,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
         else if (record.get('text')=='Dades Pacient'){
             var tabPanel= Ext.create('RegCr.view.DadesPanel');
             var store = Ext.data.StoreManager.lookup('dadesPacient');
-            console.log('Load data into dadesPacient form');
+            //console.log('Load data into dadesPacient form');
             if (store.getCount() > 0){
                 var data = store.getAt(0);
                 console.log(data.get('Codi'));
@@ -189,6 +193,15 @@ Ext.define('RegCr.view.PanelPrincipal', {
         }
         this.push(tabPanel);
 
+    },
+
+    onNavigationviewShow: function(component, options) {
+        var store = Ext.data.StoreManager.lookup('dadesPacient');
+        if (store.getCount() === 0){
+            Ext.Msg.alert('Atenció!','Per tal de poder utilitzar l\'aplicatiu, ha d\'introduïr algunes dades.', Ext.emptyFn);
+            var dades = Ext.create('RegCr.view.DadesPanel', {fullscreen: true});
+            this.push(dades);
+        }
     }
 
 });

@@ -35,7 +35,7 @@
     "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen2436",
+            "id": "ExtBox1-ext-gen4345",
             "type": "fixedfunction",
             "reference": {
                 "name": "items",
@@ -44,7 +44,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "launch",
-                "implHandler": "",
+                "implHandler": "Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});  \n\n",
                 "designer|userClassName": "launch"
             },
             "customConfigs": [],
