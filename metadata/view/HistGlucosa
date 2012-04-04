@@ -7,12 +7,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|initialView": false,
         "id": "HistGluc",
         "ui": "light",
-        "eventsRefGroup": 0.33752146386541426,
-        "tabBarRefGroup": 0.12561256508342922,
-        "designer|userClassName": "HistGlucosa",
-        "functionsRefGroup": 0.589631320675835
+        "designer|userClassName": "HistGlucosa"
     },
     "customConfigs": [],
     "designerId": "21a7f4e6-1a85-48b2-8a91-f2344e80fddd",
@@ -30,14 +28,10 @@
             "userConfig": {
                 "height": null,
                 "id": "LisGluc",
-                "eventsRefGroup": 0.11243622563779354,
                 "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Sucre: {Glucosa}</div>",
                 "store": "StoreDadesG",
                 "grouped": false,
-                "indexBar": 0.7671167566441,
-                "pluginsRefGroup": 0.6775235321838409,
                 "designer|userClassName": "MyList1",
-                "functionsRefGroup": 0.7734874698799103,
                 "title": "Llista"
             },
             "customConfigs": [],

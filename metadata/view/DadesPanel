@@ -7,10 +7,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|initialView": false,
         "id": "DadesPac",
-        "eventsRefGroup": 0.22797862673178315,
-        "designer|userClassName": "DadesPanel",
-        "functionsRefGroup": 0.9856532290577888
+        "designer|userClassName": "DadesPanel"
     },
     "customConfigs": [],
     "designerId": "cfe17ddd-a43a-4f99-be73-c7999dd71378",
@@ -27,10 +26,8 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "myfieldset1",
-                "eventsRefGroup": 0.9340560564305633,
                 "title": "Dades",
-                "designer|userClassName": "MyFieldSet",
-                "functionsRefGroup": 0.39580602780915797
+                "designer|userClassName": "MyFieldSet"
             },
             "customConfigs": [],
             "expanded": true,
@@ -45,10 +42,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "Codi",
-                        "eventsRefGroup": 0.037728110095486045,
                         "label": "Codi",
-                        "designer|userClassName": "MyNumberField",
-                        "functionsRefGroup": 0.08103547315113246
+                        "designer|userClassName": "MyNumberField"
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -63,10 +58,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "Nom",
-                        "eventsRefGroup": 0.3534168219193816,
                         "label": "Nom",
-                        "designer|userClassName": "MyTextField2",
-                        "functionsRefGroup": 0.4909106760751456
+                        "designer|userClassName": "MyTextField2"
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -81,11 +74,9 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "email",
-                        "eventsRefGroup": 0.7790494023356587,
                         "label": "Mail",
                         "placeHolder": "email@example.com",
-                        "designer|userClassName": "MyEmailField",
-                        "functionsRefGroup": 0.017667410196736455
+                        "designer|userClassName": "MyEmailField"
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -100,10 +91,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "PressTgl",
-                        "eventsRefGroup": 0.10508638620376587,
                         "label": "Pressió",
-                        "designer|userClassName": "MyToggleField1",
-                        "functionsRefGroup": 0.30018570297397673
+                        "designer|userClassName": "MyToggleField1"
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -118,10 +107,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "GlucTgl",
-                        "eventsRefGroup": 0.6291982354596257,
                         "label": "Glucosa",
-                        "designer|userClassName": "MyToggleField",
-                        "functionsRefGroup": 0.42373047093860805
+                        "designer|userClassName": "MyToggleField"
                     },
                     "customConfigs": [],
                     "expanded": true
@@ -137,10 +124,8 @@
                     "userConfig": {
                         "id": "Grabar",
                         "itemId": "mybutton",
-                        "eventsRefGroup": 0.9206155787687749,
                         "text": "Grabar",
-                        "designer|userClassName": "MyButton",
-                        "functionsRefGroup": 0.01875118911266327
+                        "designer|userClassName": "MyButton"
                     },
                     "customConfigs": [],
                     "expanded": true,

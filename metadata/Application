@@ -7,14 +7,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "actionsRefGroup": 0.09686496388167143,
         "models": [
             "DadesPress",
             "DadesGluc",
             "ListItems",
             "DadesPacient"
         ],
-        "refsRefGroup": 0.20439984020777047,
         "stores": [
             "StoreLocDP",
             "StoreLocDG",
@@ -27,18 +25,30 @@
             "HistPressio",
             "HistGlucosa"
         ],
-        "beforeFiltersRefGroup": 0.8144562283996493,
-        "designer|launch": "",
-        "routesRefGroup": 0.28437830857001245,
-        "eventsRefGroup": 0.38219457375817,
         "name": "RegCr",
         "phoneStartupScreen": "phone_startup.png",
-        "tabletStartupScreen": "tablet_startup.png",
-        "viewport": 0.25114601105451584,
-        "functionsRefGroup": 0.10368467587977648
+        "tabletStartupScreen": "tablet_startup.png"
     },
     "customConfigs": [],
     "designerId": "application",
     "$viewOrder": 0,
-    "expanded": true
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2436",
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": "",
+                "designer|userClassName": "launch"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
 }

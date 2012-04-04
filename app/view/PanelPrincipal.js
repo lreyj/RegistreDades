@@ -97,7 +97,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     name:'Minima',
                     id: 'MinP',
                     label:'M&iacute;nima',
-                    minValue: 5,
+                    minValue: 30,
                     maxValue: 200,
                     increment: 1,
                     cycle: true

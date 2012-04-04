@@ -10,15 +10,8 @@
         "autoLoad": true,
         "model": "DadesGluc",
         "storeId": "StoreDadesG",
-        "fields": 0.41684236214496195,
-        "proxy": 0.7745326028671116,
-        "filters": 0.563388115959242,
-        "grouper": 0.49819968244992197,
-        "sorters": 0.8072199034504592,
-        "eventsRefGroup": 0.5636480131652206,
         "designer|userClassName": "StoreLocDG",
-        "designer|userAlias": null,
-        "functionsRefGroup": 0.39989057648926973
+        "designer|userAlias": null
     },
     "customConfigs": [],
     "designerId": "dc461447-88d3-4c42-a51b-563ce3dcf08c",
@@ -34,12 +27,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.7924086591228843,
-                "writerRefGroup": 0.6498867841437459,
-                "eventsRefGroup": 0.9861727606039494,
                 "id": "proxyLocalDG",
-                "designer|userClassName": "MyLocalStorageProxy2",
-                "functionsRefGroup": 0.8101039484608918
+                "designer|userClassName": "MyLocalStorageProxy2"
             },
             "customConfigs": [],
             "expanded": true

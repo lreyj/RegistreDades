@@ -10,15 +10,8 @@
         "autoLoad": true,
         "model": "DadesPress",
         "storeId": "StoreDadesP",
-        "fields": 0.566917167743668,
-        "proxy": 0.9467934963759035,
-        "filters": 0.7935886862687767,
-        "grouper": 0.5109750900883228,
-        "sorters": 0.6573065856937319,
-        "eventsRefGroup": 0.29551140032708645,
         "designer|userClassName": "StoreLocDP",
-        "designer|userAlias": null,
-        "functionsRefGroup": 0.9817490915302187
+        "designer|userAlias": null
     },
     "customConfigs": [],
     "designerId": "811c22bc-db80-4f8a-bc9b-6164081e39f8",
@@ -34,12 +27,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.236839342629537,
-                "writerRefGroup": 0.06836336385458708,
-                "eventsRefGroup": 0.8949791619088501,
                 "id": "proxyLocalDP",
-                "designer|userClassName": "MyLocalStorageProxy1",
-                "functionsRefGroup": 0.8829122211318463
+                "designer|userClassName": "MyLocalStorageProxy1"
             },
             "customConfigs": [],
             "expanded": true

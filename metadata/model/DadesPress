@@ -7,13 +7,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "associations": 0.18130508996546268,
-        "fields": 0.07732948800548911,
-        "proxy": 0.6761369248852134,
-        "validations": 0.5634155438747257,
         "designer|userClassName": "DadesPress",
-        "designer|userAlias": "pressio",
-        "functionsRefGroup": 0.8184034645091742
+        "designer|userAlias": "pressio"
     },
     "customConfigs": [],
     "designerId": "23189ef6-78fd-4c29-8fc8-12fd37bbfdb3",
@@ -29,11 +24,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.5251775188371539,
                 "name": "minima",
                 "type": null,
-                "designer|userClassName": "MyField4",
-                "functionsRefGroup": 0.19477500207722187
+                "designer|userClassName": "MyField4"
             },
             "customConfigs": [],
             "expanded": true
@@ -47,11 +40,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.7045344964135438,
                 "name": "maxima",
                 "type": null,
-                "designer|userClassName": "MyField5",
-                "functionsRefGroup": 0.5631762670818716
+                "designer|userClassName": "MyField5"
             },
             "customConfigs": [],
             "expanded": true
@@ -65,11 +56,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "convert": 0.3253403762355447,
                 "name": "Data",
                 "type": "date",
-                "designer|userClassName": "MyField6",
-                "functionsRefGroup": 0.6592600357253104
+                "designer|userClassName": "MyField6"
             },
             "customConfigs": [],
             "expanded": true

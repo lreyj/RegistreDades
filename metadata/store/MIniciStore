@@ -10,16 +10,9 @@
         "autoLoad": true,
         "model": "ListItems",
         "storeId": "MenuList",
-        "fields": 0.34535982902161777,
-        "proxy": 0.7383382779080421,
-        "filters": 0.9201999988872558,
-        "grouper": 0.4931938271038234,
-        "sorters": 0.7099071394186467,
-        "eventsRefGroup": 0.9434534499887377,
         "root": "item",
         "designer|userClassName": "MIniciStore",
-        "designer|userAlias": "StoreMenu",
-        "functionsRefGroup": 0.5779199851676822
+        "designer|userAlias": "StoreMenu"
     },
     "customConfigs": [],
     "designerId": "02966620-57bd-4906-b5a0-8027e09d5c12",
@@ -35,12 +28,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "readerRefGroup": 0.6508826690260321,
-                "writerRefGroup": 0.30797580373473465,
-                "eventsRefGroup": 0.3554650549776852,
                 "url": "data/menu.json",
-                "designer|userClassName": "MyAjaxProxy",
-                "functionsRefGroup": 0.966500292532146
+                "designer|userClassName": "MyAjaxProxy"
             },
             "customConfigs": [],
             "expanded": true,
