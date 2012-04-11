@@ -31,7 +31,7 @@ Ext.define('RegCr.view.GraficPrs', {
                 }
             }
         }],
-        animate: false,
+        animate: true,
         store: 'StoreDadesP',
         axes: [
             {
@@ -43,6 +43,8 @@ Ext.define('RegCr.view.GraficPrs', {
                 },
                 adjustMinimumByMajorUnit: 0,
                 fields: ['minima','maxima'],
+				roundToDecimal: true,
+                decimals: 0,
                 title: 'Nivell Pressió',
                 grid: {
                     odd: {

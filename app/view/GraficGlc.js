@@ -31,7 +31,7 @@ Ext.define("RegCr.view.GraficGlc", {
                 }
             }
         }],
-        animate: false,
+        animate: true,
         store: 'StoreDadesG',
         axes: [
             {
@@ -43,6 +43,8 @@ Ext.define("RegCr.view.GraficGlc", {
                 },
                 adjustMinimumByMajorUnit: 0,
                 fields: ['Glucosa'],
+				roundToDecimal: true,
+                decimals: 0,
                 title: 'Nivell Glucosa',
                 grid: {
                     odd: {
