@@ -1,0 +1,18 @@
+{
+    "id": "ExtBox1-ext-gen4786",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": false,
+        "id": "grafglc",
+        "designer|userClassName": "GraficGlc"
+    },
+    "customConfigs": [],
+    "designerId": "24a8b1d6-7116-4cbb-9655-396a7d03856c",
+    "$viewOrder": 2,
+    "expanded": true
+}

@@ -74,12 +74,32 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "email",
+                        "itemId": "myemailfield",
                         "label": "Mail",
                         "placeHolder": "email@example.com",
                         "designer|userClassName": "MyEmailField"
                     },
                     "customConfigs": [],
-                    "expanded": true
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen7866",
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onEmailChange",
+                                "implHandler": "re=/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$/\n\nif(!re.exec(newValue))    {\n\n    Ext.Msg.alert('Avís:', 'Adreça electrònica incorrecta.');\n\n}",
+                                "name": "change",
+                                "designer|userClassName": "onEmailChange"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
                 },
                 {
                     "id": "ExtBox1-ext-gen16832",

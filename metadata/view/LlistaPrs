@@ -1,0 +1,19 @@
+{
+    "id": "ExtBox1-ext-gen8280",
+    "type": "list",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "ListaPressio",
+        "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Min: {minima} - Max: {maxima}</div>",
+        "store": "StoreDadesP",
+        "designer|userClassName": "LlistaPrs"
+    },
+    "customConfigs": [],
+    "designerId": "430ba9d0-26e4-4b86-a009-206cfcf785db",
+    "$viewOrder": 4,
+    "expanded": true
+}

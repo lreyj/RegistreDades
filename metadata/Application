@@ -22,8 +22,10 @@
         "views": [
             "PanelPrincipal",
             "DadesPanel",
-            "HistPressio",
-            "HistGlucosa"
+            "GraficGlc",
+            "LlistaGlc",
+            "LlistaPrs",
+            "GraficPrs"
         ],
         "name": "RegCr",
         "phoneStartupScreen": "phone_startup.png",
@@ -32,6 +34,7 @@
     "customConfigs": [],
     "designerId": "application",
     "$viewOrder": 0,
+    "iconCls": "icon-application",
     "expanded": true,
     "cn": [
         {
@@ -44,10 +47,11 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "launch",
-                "implHandler": "Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});  \n\n",
+                "implHandler": "\nExt.create('RegCr.view.PanelPrincipal', {fullscreen: true});  \n\n",
                 "designer|userClassName": "launch"
             },
             "customConfigs": [],
+            "iconCls": "icon-basic-function",
             "expanded": true
         }
     ]

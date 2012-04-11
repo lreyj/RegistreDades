@@ -37,6 +37,7 @@ Ext.define('RegCr.view.DadesPanel', {
                     {
                         xtype: 'emailfield',
                         id: 'email',
+                        itemId: 'myemailfield',
                         label: 'Mail',
                         placeHolder: 'email@example.com'
                     },
@@ -61,11 +62,26 @@ Ext.define('RegCr.view.DadesPanel', {
         ],
         listeners: [
             {
+                fn: 'onEmailChange',
+                event: 'change',
+                delegate: '#email'
+            },
+            {
                 fn: 'onGrabarTap',
                 event: 'tap',
                 delegate: '#Grabar'
             }
         ]
+    },
+
+    onEmailChange: function(textfield, newValue, oldValue, options) {
+        re=/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$/
+
+        if(!re.exec(newValue))    {
+
+            Ext.Msg.alert('Avís:', 'Adreça electrònica incorrecta.');
+
+        }
     },
 
     onGrabarTap: function(button, e, options) {

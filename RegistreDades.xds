@@ -15,10 +15,11 @@
         "saveOnDeploy": false,
         "appName": "MyApp",
         "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true",
+        "resources": [],
         "cssPath": ""
     },
     "xdsVersion": "2.0.0",
-    "xdsBuild": "360",
+    "xdsBuild": "363",
     "framework": "touch20",
     "topInstanceFileMap": {
         "23189ef6-78fd-4c29-8fc8-12fd37bbfdb3": {
@@ -101,21 +102,37 @@
             ],
             "className": "DadesPanel"
         },
-        "da6dc6d8-97c3-4421-a677-6adf70a9c041": {
+        "24a8b1d6-7116-4cbb-9655-396a7d03856c": {
             "paths": [
-                "metadata/view/HistPressio",
-                "app/view/override/HistPressio.js",
-                "app/view/HistPressio.js"
+                "metadata/view/GraficGlc",
+                "app/view/override/GraficGlc.js",
+                "app/view/GraficGlc.js"
             ],
-            "className": "HistPressio"
+            "className": "GraficGlc"
         },
-        "21a7f4e6-1a85-48b2-8a91-f2344e80fddd": {
+        "cf18b016-e5f5-4c54-a020-64f534be18c5": {
             "paths": [
-                "metadata/view/HistGlucosa",
-                "app/view/override/HistGlucosa.js",
-                "app/view/HistGlucosa.js"
+                "metadata/view/LlistaGlc",
+                "app/view/override/LlistaGlc.js",
+                "app/view/LlistaGlc.js"
             ],
-            "className": "HistGlucosa"
+            "className": "LlistaGlc"
+        },
+        "430ba9d0-26e4-4b86-a009-206cfcf785db": {
+            "paths": [
+                "metadata/view/LlistaPrs",
+                "app/view/override/LlistaPrs.js",
+                "app/view/LlistaPrs.js"
+            ],
+            "className": "LlistaPrs"
+        },
+        "d6b7a4d9-0e29-40ea-aeeb-c0428194d491": {
+            "paths": [
+                "metadata/view/GraficPrs",
+                "app/view/override/GraficPrs.js",
+                "app/view/GraficPrs.js"
+            ],
+            "className": "GraficPrs"
         }
     },
     "expandedState": {

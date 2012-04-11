@@ -20,6 +20,20 @@ Ext.define('RegCr.view.PanelPrincipal', {
     config: {
         ui: 'light',
         defaultBackButtonText: 'Tornar',
+        navigationBar: {
+            height: 38
+        },
+        listeners: [
+            {
+                fn: 'onNavigationviewShow',
+                event: 'show'
+            },
+            {
+                fn: 'onMynestedlistLeafItemTap',
+                event: 'leafitemtap',
+                delegate: '#mynestedlist'
+            }
+        ],
         items: [
             {
                 xtype: 'nestedlist',
@@ -27,26 +41,20 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 itemId: 'mynestedlist',
                 store: 'MenuList',
                 title: 'Registre cr&ograve;nics',
-                activeItem: 1,
                 toolbar: {
                     xtype: 'toolbar'
                 }
             }
-        ],
-        navigationBar: {
-            height: 38
-        },
-        listeners: [
-            {
-                fn: 'onMynestedlistLeafItemTap',
-                event: 'leafitemtap',
-                delegate: '#mynestedlist'
-            },
-            {
-                fn: 'onNavigationviewShow',
-                event: 'show'
-            }
         ]
+    },
+
+    onNavigationviewShow: function(component, options) {
+        var store = Ext.data.StoreManager.lookup('dadesPacient');
+        if (store.getCount() === 0){
+            Ext.Msg.alert('Atenció!','Per tal de poder utilitzar l\'aplicatiu, ha d\'introduïr algunes dades.', Ext.emptyFn);
+            var dades = Ext.create('RegCr.view.DadesPanel', {fullscreen: true});
+            this.push(dades);
+        }
     },
 
     onMynestedlistLeafItemTap: function(nestedlist, list, index, target, record, e, options) {
@@ -186,22 +194,20 @@ Ext.define('RegCr.view.PanelPrincipal', {
             }
         }
         else if (record.get('text')=='Hist&ograve;ric Pressi&oacute;'){
-            var tabPanel= Ext.create('RegCr.view.HistPressio');
+            var tabPanel= Ext.create('RegCr.view.LlistaPrs');
         }
         else if (record.get('text')=='Hist&ograve;ric Glucosa'){
-            var tabPanel= Ext.create('RegCr.view.HistGlucosa');
+            var tabPanel= Ext.create('RegCr.view.LlistaGlc');
         }
+        else if (record.get('text')=='Gr&agrave;fica de Pressi&oacute;'){
+            var tabPanel= Ext.create('RegCr.view.GraficPrs');
+        }
+        else if (record.get('text')=='Gr&agrave;fica de Glucosa'){
+            var tabPanel= Ext.create('RegCr.view.GraficGlc');
+        }
+
         this.push(tabPanel);
 
-    },
-
-    onNavigationviewShow: function(component, options) {
-        var store = Ext.data.StoreManager.lookup('dadesPacient');
-        if (store.getCount() === 0){
-            Ext.Msg.alert('Atenció!','Per tal de poder utilitzar l\'aplicatiu, ha d\'introduïr algunes dades.', Ext.emptyFn);
-            var dades = Ext.create('RegCr.view.DadesPanel', {fullscreen: true});
-            this.push(dades);
-        }
     }
 
 });
