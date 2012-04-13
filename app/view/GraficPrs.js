@@ -36,13 +36,13 @@ Ext.define('RegCr.view.GraficPrs', {
         axes: [
             {
                 type: 'Numeric',
-                position: 'right',
+                position: 'left',
                 minimum: 20,
                 label: {
                     renderer: RegCr.commify
                 },
                 adjustMinimumByMajorUnit: 0,
-                fields: ['maxima','minima'],
+                fields: ['maxima','minima','pulsacions'],
 				roundToDecimal: true,
                 decimals: 0,
                 title: 'Nivell Pressió',
@@ -79,7 +79,7 @@ Ext.define('RegCr.view.GraficPrs', {
                 showMarkers: false,
                 fill: true,
                 smooth: true,
-                axis: 'right',
+                axis: 'left',
                 xField: 'Data',
                 yField: 'minima',
                 title: ['minima']
@@ -90,10 +90,21 @@ Ext.define('RegCr.view.GraficPrs', {
                 showMarkers: false,
                 fill: true,
                 smooth: true,
-                axis: 'right',
+                axis: 'left',
                 xField: 'Data',
                 yField: 'maxima',
                 title: ['maxima']
+            },
+						{
+                type: 'line',
+                highlight: false,
+                showMarkers: false,
+                fill: false,
+                smooth: true,
+                axis: 'left',
+                xField: 'Data',
+                yField: 'pulsacions',
+                title: ['pulsacions']
             }
         ],
         listeners: {
