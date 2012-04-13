@@ -93,7 +93,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                         doneButton: 'Fet',
                         cancelButton: 'Cancel.lar'
                     },
-                    value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}
+                    value : { day: new Date().getDate(), month: new Date().getMonth(), year : new Date().getFullYear()}
                 },
                 {
                     xtype:'spinnerfield',
@@ -130,16 +130,21 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     text: 'Ok',
                     ui: 'confirm',
                     handler: function(){
-                        var store = Ext.data.StoreManager.lookup('StoreDadesP');
-                        var var1 = Ext.ComponentQuery.query('#DataP')[0].getValue();
-                        var var2 = Ext.ComponentQuery.query('#MaxP')[0].getValue();
-                        var var3 = Ext.ComponentQuery.query('#MinP')[0].getValue();
-                        var var4 = Ext.ComponentQuery.query('#Pols')[0].getValue();
-                        store.add({Data: var1, maxima: var2, minima: var3, pulsacions: var4});
-                        store.sync();
-                        Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);
-                        //this.pop(); 
-                        //TODO Error handling
+                        var dataAct = new Date(new Date().getFullYear(),new Date().getMonth(),new Date().getDate());
+                        var dataPick = Ext.ComponentQuery.query('#DataP')[0].getValue();
+                        console.log(dataAct);
+                        console.log(dataPick);
+                        if (dataPick <= dataAct){
+                            var store = Ext.data.StoreManager.lookup('StoreDadesP');
+                            var var1 = Ext.ComponentQuery.query('#DataP')[0].getValue();
+                            var var2 = Ext.ComponentQuery.query('#MaxP')[0].getValue();
+                            var var3 = Ext.ComponentQuery.query('#MinP')[0].getValue();
+                            var var4 = Ext.ComponentQuery.query('#Pols')[0].getValue();
+                            store.add({Data: var1, maxima: var2, minima: var3, pulsacions: var4});
+                            store.sync();
+                            Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);
+                        }
+                        else{Ext.Msg.alert('Error', 'Data incorrecta.', Ext.emptyFn);}
                     }
                 }
                 ]
@@ -178,14 +183,19 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     text: 'Ok',
                     ui: 'confirm',
                     handler: function(){
-                        var store = Ext.data.StoreManager.lookup('StoreDadesG');
-                        var var1 = Ext.ComponentQuery.query('#Data')[0].getValue();
-                        var var2 = Ext.ComponentQuery.query('#Glucosa')[0].getValue();
-                        store.add({Data: var1, Glucosa: var2});
-                        store.sync();
-                        Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);
-                        //this.pop(); 
-                        //TODO Error handling
+                        var dataAct = new Date(new Date().getFullYear(),new Date().getMonth(),new Date().getDate());
+                        var dataPick = Ext.ComponentQuery.query('#Data')[0].getValue();
+                        console.log(dataAct);
+                        console.log(dataPick);
+                        if (dataPick <= dataAct){
+                            var store = Ext.data.StoreManager.lookup('StoreDadesG');
+                            var var1 = Ext.ComponentQuery.query('#Data')[0].getValue();
+                            var var2 = Ext.ComponentQuery.query('#Glucosa')[0].getValue();
+                            store.add({Data: var1, Glucosa: var2});
+                            store.sync();
+                            Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);
+                        }
+                        else{Ext.Msg.alert('Error', 'Data incorrecta.', Ext.emptyFn);}
                     }
                 }
                 ]

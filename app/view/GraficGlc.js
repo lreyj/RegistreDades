@@ -36,7 +36,7 @@ Ext.define("RegCr.view.GraficGlc", {
         axes: [
             {
                 type: 'Numeric',
-                position: 'right',
+                position: 'left',
                 minimum: 20,
                 label: {
                     renderer: RegCr.commify
@@ -79,7 +79,7 @@ Ext.define("RegCr.view.GraficGlc", {
                 showMarkers: false,
                 fill: true,
                 smooth: true,
-                axis: 'right',
+                axis: 'left',
                 xField: 'Data',
                 yField: 'Glucosa',
                 title: ['Glucosa']
