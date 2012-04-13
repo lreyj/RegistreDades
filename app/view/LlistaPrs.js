@@ -20,7 +20,7 @@ Ext.define('RegCr.view.LlistaPrs', {
         id: 'ListaPressio',
         store: 'StoreDadesP',
         itemTpl: [
-            '<div>{Data:date("d/m/Y")} - Min: {minima} - Max: {maxima}</div>'
+            '<div>{Data:date("d/m/Y")} - Min: {minima} - Max: {maxima} -Pols: {pulsacions}</div>'
         ]
     }
 

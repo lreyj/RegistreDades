@@ -8,7 +8,7 @@
     "codeClass": null,
     "userConfig": {
         "id": "ListaPressio",
-        "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Min: {minima} - Max: {maxima}</div>",
+        "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Min: {minima} - Max: {maxima} -Pols: {pulsacions}</div>",
         "store": "StoreDadesP",
         "designer|userClassName": "LlistaPrs"
     },
