@@ -10,6 +10,7 @@
         "id": "ListaPressio",
         "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Min: {minima} - Max: {maxima} -Pols: {pulsacions}</div>",
         "store": "StoreDadesP",
+        "onItemDisclosure": false,
         "designer|userClassName": "LlistaPrs"
     },
     "customConfigs": [],

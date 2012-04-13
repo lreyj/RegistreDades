@@ -39,6 +39,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 xtype: 'nestedlist',
                 height: 300,
                 itemId: 'mynestedlist',
+                onItemDisclosure: true,
                 store: 'MenuList',
                 title: 'Registre cr&ograve;nics',
                 toolbar: {

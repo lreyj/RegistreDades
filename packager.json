@@ -3,7 +3,7 @@
     "applicationId": "RegCr.mycompany.myAppID",
     "versionString": "0.5",
     "iconName": "resources/Icon~ipad.png",
-    "inputPath": "./",
+    "inputPath": "C:/xampp/htdocs/touch/RegistreDades",
     "outputPath": "build/",
     "configuration": "Debug",
     "platform": "AndroidEmulator",

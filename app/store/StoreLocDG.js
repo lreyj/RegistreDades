@@ -26,6 +26,15 @@ Ext.define('RegCr.store.StoreLocDG', {
         proxy: {
             type: 'localstorage',
             id: 'proxyLocalDG'
+        },
+        sorters: {
+            sorterFn: function(first, second) {
+                var v1 = new Date(first.data.Data);
+                var v2 = new Date(second.data.Data);
+                return v1 > v2 ? 1 : (v1 < v2 ? -1 : 0);
+            },
+            id: 'sorterG',
+            root: 'Data'
         }
     }
 });

@@ -32,6 +32,45 @@
             },
             "customConfigs": [],
             "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen3756",
+            "type": "sorter",
+            "reference": {
+                "name": "sorters",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "OrdenaP",
+                "root": "Data",
+                "designer|userClassName": "MySorter"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen4075",
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "sorterFn",
+                        "designer|params": [
+                            "first",
+                            "second"
+                        ],
+                        "implHandler": "var v1 = new Date(first.data.Data);\nvar v2 = new Date(second.data.Data);\nreturn v1 > v2 ? 1 : (v1 < v2 ? -1 : 0);",
+                        "designer|userClassName": "sorterFn"
+                    },
+                    "customConfigs": [],
+                    "iconCls": "icon-basic-function",
+                    "expanded": true
+                }
+            ]
         }
     ]
 }
