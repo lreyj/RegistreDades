@@ -115,6 +115,16 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     cycle: true
                 },		
                 {
+                    xtype:'spinnerfield',
+                    name:'Pulsacions',
+                    id: 'Pols',
+                    label:'Pulsacions',
+                    minValue: 30,
+                    maxValue: 290,
+                    increment: 1,
+                    cycle: true
+                },	
+                {
                     xtype: 'button',
                     text: 'Ok',
                     ui: 'confirm',
@@ -123,7 +133,8 @@ Ext.define('RegCr.view.PanelPrincipal', {
                         var var1 = Ext.ComponentQuery.query('#DataP')[0].getValue();
                         var var2 = Ext.ComponentQuery.query('#MaxP')[0].getValue();
                         var var3 = Ext.ComponentQuery.query('#MinP')[0].getValue();
-                        store.add({Data: var1, maxima: var2, minima: var3});
+                        var var4 = Ext.ComponentQuery.query('#Pols')[0].getValue();
+                        store.add({Data: var1, maxima: var2, minima: var3, pulsacions: var4});
                         store.sync();
                         Ext.Msg.alert('Registre creat', 'Registre creat correctament.', Ext.emptyFn);
                         //this.pop(); 

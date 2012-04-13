@@ -7,7 +7,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": false,
         "id": "grafglc",
         "designer|userClassName": "GraficGlc"
     },

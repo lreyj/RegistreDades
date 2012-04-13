@@ -42,16 +42,16 @@ Ext.define('RegCr.view.GraficPrs', {
                     renderer: RegCr.commify
                 },
                 adjustMinimumByMajorUnit: 0,
-                fields: ['minima','maxima'],
+                fields: ['maxima','minima'],
 				roundToDecimal: true,
                 decimals: 0,
                 title: 'Nivell Pressió',
                 grid: {
                     odd: {
-                        stroke: '#777'
+                        stroke: '#555'
                     },
                     even: {
-                        stroke: '#555'
+                        stroke: '#777'
                     }
                 }
             },

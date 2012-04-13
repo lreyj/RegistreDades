@@ -27,6 +27,9 @@ Ext.define('RegCr.model.DadesPress', {
             {
                 name: 'Data',
                 type: 'date'
+            },
+            {
+                name: 'pulsacions'
             }
         ]
     }

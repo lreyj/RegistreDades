@@ -1,0 +1,15 @@
+{
+    "applicationName": "Registre Cronics",
+    "applicationId": "RegCr.mycompany.myAppID",
+    "versionString": "0.5",
+    "iconName": "resources/Icon~ipad.png",
+    "inputPath": "./",
+    "outputPath": "build/",
+    "configuration": "Debug",
+    "platform": "AndroidEmulator",
+    "deviceType": "Universal",
+    "certificatePath": "E:/Android/lrey.keystore",
+    "certificateAlias": "",
+    "sdkPath": "E:/Android/android-sdk",
+    "androidAPILevel": "10"
+}

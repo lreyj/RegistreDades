@@ -19,7 +19,6 @@ Ext.define('RegCr.view.LlistaGlc', {
     config: {
         id: 'LisGluc',
         store: 'StoreDadesG',
-        grouped: false,
         itemTpl: [
             '<div>{Data:date("d/m/Y")} - Sucre: {Glucosa}</div>'
         ]
