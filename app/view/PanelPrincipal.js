@@ -93,7 +93,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                         doneButton: 'Fet',
                         cancelButton: 'Cancel.lar'
                     },
-                    value : { day: new Date().getDate(), month: new Date().getMonth(), year : new Date().getFullYear()}
+                    value : { day: new Date().getDate(), month: new Date().getMonth()+1, year : new Date().getFullYear()}
                 },
                 {
                     xtype:'spinnerfield',
@@ -169,7 +169,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                         doneButton: 'Fet',
                         cancelButton: 'Cancel.lar'
                     },
-                    value : { day: new Date().getDate(), month: (new Date().getMonth()), year : new Date().getFullYear()}
+                    value : { day: new Date().getDate(), month: (new Date().getMonth())+1, year : new Date().getFullYear()}
                 },
                 {
                     xtype:'spinnerfield',
@@ -220,10 +220,10 @@ Ext.define('RegCr.view.PanelPrincipal', {
             }
         }
         else if (record.get('text')=='Hist&ograve;ric Pressi&oacute;'){
-            var tabPanel= Ext.create('RegCr.view.LlistaPrs');
+            var tabPanel= Ext.create('RegCr.view.PLlistaPrs');
         }
         else if (record.get('text')=='Hist&ograve;ric Glucosa'){
-            var tabPanel= Ext.create('RegCr.view.LlistaGlc');
+            var tabPanel= Ext.create('RegCr.view.PLlistaGlc');
         }
         else if (record.get('text')=='Gr&agrave;fica de Pressi&oacute;'){
             var tabPanel= Ext.create('RegCr.view.GraficPrs');

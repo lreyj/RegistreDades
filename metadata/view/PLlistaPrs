@@ -1,0 +1,57 @@
+{
+    "id": "ExtBox1-ext-gen10819",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "PLlistaPrs",
+        "designer|userClassName": "PLlistaPrs"
+    },
+    "customConfigs": [],
+    "designerId": "220a4407-8caa-4dbc-bb4e-201fbd5559e7",
+    "$viewOrder": 4,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen8280",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 478,
+                "id": "ListaPressio",
+                "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Min: {minima} - Max: {maxima} -Pols: {pulsacions}</div>",
+                "store": "StoreDadesP",
+                "onItemDisclosure": false,
+                "designer|userClassName": "LlistaPrs"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen9759",
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onListaPressioItemTap",
+                        "implHandler": "var store = Ext.data.StoreManager.lookup('StoreDadesP');\r\nExt.Msg.confirm('¿Vols esborrar aquest registre?',null,function(btn){\r\n    if (btn=='yes'){\r\n        store.remove(record); \r\n        store.sync();\r\n    }\r\n});\r\n",
+                        "name": "itemtap",
+                        "designer|userClassName": "onListaPressioItemTap"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}

@@ -34,9 +34,9 @@ Ext.application({
         'PanelPrincipal',
         'DadesPanel',
         'GraficGlc',
-        'LlistaGlc',
-        'LlistaPrs',
-        'GraficPrs'
+        'GraficPrs',
+        'PLlistaPrs',
+        'PLlistaGlc'
     ],
     name: 'RegCr',
     phoneStartupScreen: 'phone_startup.png',

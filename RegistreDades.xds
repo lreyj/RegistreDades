@@ -109,22 +109,6 @@
             ],
             "className": "GraficGlc"
         },
-        "cf18b016-e5f5-4c54-a020-64f534be18c5": {
-            "paths": [
-                "metadata/view/LlistaGlc",
-                "app/view/override/LlistaGlc.js",
-                "app/view/LlistaGlc.js"
-            ],
-            "className": "LlistaGlc"
-        },
-        "430ba9d0-26e4-4b86-a009-206cfcf785db": {
-            "paths": [
-                "metadata/view/LlistaPrs",
-                "app/view/override/LlistaPrs.js",
-                "app/view/LlistaPrs.js"
-            ],
-            "className": "LlistaPrs"
-        },
         "d6b7a4d9-0e29-40ea-aeeb-c0428194d491": {
             "paths": [
                 "metadata/view/GraficPrs",
@@ -132,11 +116,27 @@
                 "app/view/GraficPrs.js"
             ],
             "className": "GraficPrs"
+        },
+        "220a4407-8caa-4dbc-bb4e-201fbd5559e7": {
+            "paths": [
+                "metadata/view/PLlistaPrs",
+                "app/view/override/PLlistaPrs.js",
+                "app/view/PLlistaPrs.js"
+            ],
+            "className": "PLlistaPrs"
+        },
+        "d5d1df07-a3f6-4fef-86f9-4cf95787e8ec": {
+            "paths": [
+                "metadata/view/PLlistaGlc",
+                "app/view/override/PLlistaGlc.js",
+                "app/view/PLlistaGlc.js"
+            ],
+            "className": "PLlistaGlc"
         }
     },
     "expandedState": {
         "data": true,
-        "model": true,
+        "model": false,
         "component": true,
         "controller": true,
         "resource": false

@@ -1,0 +1,58 @@
+{
+    "id": "ExtBox1-ext-gen11934",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "PLlistaGlc",
+        "designer|userClassName": "PLlistaGlc"
+    },
+    "customConfigs": [],
+    "designerId": "d5d1df07-a3f6-4fef-86f9-4cf95787e8ec",
+    "$viewOrder": 5,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen9991",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 478,
+                "id": "LisGluc",
+                "layout": "fit",
+                "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Sucre: {Glucosa}</div>",
+                "store": "StoreDadesG",
+                "onItemDisclosure": false,
+                "designer|userClassName": "LlistaGlc"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen10216",
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onLisGlucItemTap",
+                        "implHandler": "var store = Ext.data.StoreManager.lookup('StoreDadesG');\r\nExt.Msg.confirm('¿Vols esborrar aquest registre?',null,function(btn){\r\n    if (btn=='yes'){\r\n        store.remove(record); \r\n        store.sync();\r\n    }\r\n});\r\n",
+                        "name": "itemtap",
+                        "designer|userClassName": "onLisGlucItemTap"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}
