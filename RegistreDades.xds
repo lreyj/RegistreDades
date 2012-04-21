@@ -15,11 +15,10 @@
         "saveOnDeploy": false,
         "appName": "MyApp",
         "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true",
-        "resources": [],
         "cssPath": ""
     },
     "xdsVersion": "2.0.0",
-    "xdsBuild": "374",
+    "xdsBuild": "412",
     "framework": "touch20",
     "topInstanceFileMap": {
         "23189ef6-78fd-4c29-8fc8-12fd37bbfdb3": {
@@ -139,6 +138,7 @@
         "data": true,
         "model": true,
         "component": true,
-        "controller": true
+        "controller": true,
+        "resource": false
     }
 }

@@ -11,6 +11,7 @@
         "id": "LisGluc",
         "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Sucre: {Glucosa}</div>",
         "store": "StoreDadesG",
+        "onItemDisclosure": false,
         "designer|userClassName": "LlistaGlc"
     },
     "customConfigs": [],
