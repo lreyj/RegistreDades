@@ -22,7 +22,6 @@ Ext.define('RegCr.view.PanelPrincipal', {
         defaultBackButtonText: 'Tornar',
         navigationBar: {
             height: 38,
-            hidden: true,
             id: 'navbar',
             itemId: 'navbarpr'
         },
@@ -34,11 +33,6 @@ Ext.define('RegCr.view.PanelPrincipal', {
             {
                 fn: 'onMynestedlistLeafItemTap',
                 event: 'leafitemtap',
-                delegate: '#mynestedlist'
-            },
-            {
-                fn: 'onMynestedlistShow',
-                event: 'show',
                 delegate: '#mynestedlist'
             }
         ],
@@ -62,10 +56,12 @@ Ext.define('RegCr.view.PanelPrincipal', {
         if (store.getCount() === 0){
             Ext.Msg.alert('Atenció!','Per tal de poder utilitzar l\'aplicatiu, ha d\'introduïr algunes dades.', Ext.emptyFn);
             var dades = Ext.create('RegCr.view.DadesPanel', {fullscreen: true});
-            Ext.ComponentQuery.query('#navbar')[0].setHidden(false);
+            //Ext.ComponentQuery.query('#navbar')[0].setHidden(false);
             this.push(dades);
         }
-        else {Ext.ComponentQuery.query('#navbar')[0].setHidden(true);}
+        else {
+            //Ext.ComponentQuery.query('#navbar')[0].setHidden(true);
+        }
     },
 
     onMynestedlistLeafItemTap: function(nestedlist, list, index, target, record, e, options) {
@@ -241,13 +237,9 @@ Ext.define('RegCr.view.PanelPrincipal', {
         else if (record.get('text')=='Gr&agrave;fica de Glucosa'){
             var tabPanel= Ext.create('RegCr.view.GraficGlc');
         }
-        Ext.ComponentQuery.query('#navbar')[0].setHidden(false);
+        //Ext.ComponentQuery.query('#navbar')[0].setHidden(false);
         this.push(tabPanel);
 
-    },
-
-    onMynestedlistShow: function(component, options) {
-        Ext.ComponentQuery.query('#navbar')[0].setHidden(true);
     }
 
 });
