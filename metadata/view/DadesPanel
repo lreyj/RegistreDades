@@ -29,7 +29,7 @@
                 "designer|userClassName": "MyFieldSet"
             },
             "customConfigs": [],
-            "expanded": false,
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen6376",
@@ -91,7 +91,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "fn": "onEmailChange",
-                                "implHandler": "re=/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$/\n\nif(!re.exec(newValue))    {\n\n    Ext.Msg.alert('Avís:', 'Adreça electrònica incorrecta.');\n\n}",
+                                "implHandler": "re=/^[_a-z0-9-]+(.[_a-z0-9-]+)*@[a-z0-9-]+(.[a-z0-9-]+)*(.[a-z]{2,3})$/\r\n\r\nif(!re.exec(newValue))    {\r\n\r\n    Ext.Msg.alert('Avís:', 'Adreça electrònica incorrecta.');\r\n\r\n}",
                                 "name": "change",
                                 "designer|userClassName": "onEmailChange"
                             },
@@ -159,7 +159,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "fn": "onGrabarTap",
-                                "implHandler": "var store = Ext.data.StoreManager.lookup('dadesPacient');\n\nvar num =  Ext.ComponentQuery.query('#Codi')[0].getValue();\nvar nom = Ext.ComponentQuery.query('#Nom')[0].getValue();\nvar mail = Ext.ComponentQuery.query('#email')[0].getValue();\nvar pres = Ext.ComponentQuery.query('#PressTgl')[0].getValue();\nvar gluc = Ext.ComponentQuery.query('#GlucTgl')[0].getValue();\n\n//var last = store.max();\nvar isFirst = store.getAt(0);\n//if not exists, build the first item (this area needs to be replaced with a function that construct a whole settings file\n//console.log(store.getCount());\nif (store.getCount()>0) {\n    //console.log('inside');\n    store.removeAt(0);\n    store.sync();\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\n    store.sync();\n}\nelse{\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\n    store.sync();\n}\n\nExt.Msg.alert('Dades Pacient', 'Les dades s\\'han desat correctament.', Ext.emptyFn);\nthis.getParent().pop();\n//TODO Error handling\n",
+                                "implHandler": "var store = Ext.data.StoreManager.lookup('dadesPacient');\r\n\r\nvar num =  Ext.ComponentQuery.query('#Codi')[0].getValue();\r\nvar nom = Ext.ComponentQuery.query('#Nom')[0].getValue();\r\nvar mail = Ext.ComponentQuery.query('#email')[0].getValue();\r\nvar pres = Ext.ComponentQuery.query('#PressTgl')[0].getValue();\r\nvar gluc = Ext.ComponentQuery.query('#GlucTgl')[0].getValue();\r\n\r\n//var last = store.max();\r\nvar isFirst = store.getAt(0);\r\n//if not exists, build the first item (this area needs to be replaced with a function that construct a whole settings file\r\n//console.log(store.getCount());\r\nif (store.getCount()>0) {\r\n    //console.log('inside');\r\n    store.removeAt(0);\r\n    store.sync();\r\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\r\n    store.sync();\r\n}\r\nelse{\r\n    store.add({Codi: num, Nom: nom, eMail: mail, Pressio: pres, Glucosa: gluc});\r\n    store.sync();\r\n}\r\n\r\nExt.Msg.alert('Dades Pacient', 'Les dades s\\'han desat correctament.', Ext.emptyFn);\r\nthis.MyNavigationBar.setHidden(true);\r\nthis.getParent().pop();\r\n//TODO Error handling\r\n",
                                 "name": "tap",
                                 "designer|userClassName": "onGrabarTap"
                             },

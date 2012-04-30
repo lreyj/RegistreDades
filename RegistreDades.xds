@@ -132,6 +132,22 @@
                 "app/view/PLlistaGlc.js"
             ],
             "className": "PLlistaGlc"
+        },
+        "cf18b016-e5f5-4c54-a020-64f534be18c5": {
+            "paths": [
+                "metadata/view/LlistaGlc",
+                "app/view/override/LlistaGlc.js",
+                "app/view/LlistaGlc.js"
+            ],
+            "className": "LlistaGlc"
+        },
+        "430ba9d0-26e4-4b86-a009-206cfcf785db": {
+            "paths": [
+                "metadata/view/LlistaPrs",
+                "app/view/override/LlistaPrs.js",
+                "app/view/LlistaPrs.js"
+            ],
+            "className": "LlistaPrs"
         }
     },
     "expandedState": {

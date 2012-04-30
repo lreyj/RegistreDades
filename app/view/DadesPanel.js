@@ -110,6 +110,7 @@ Ext.define('RegCr.view.DadesPanel', {
         }
 
         Ext.Msg.alert('Dades Pacient', 'Les dades s\'han desat correctament.', Ext.emptyFn);
+        this.MyNavigationBar.setHidden(true);
         this.getParent().pop();
         //TODO Error handling
 
