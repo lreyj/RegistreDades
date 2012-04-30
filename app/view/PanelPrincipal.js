@@ -153,8 +153,6 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     handler: function(){
                         var dataAct = new Date(new Date().getFullYear(),new Date().getMonth(),new Date().getDate());
                         var dataPick = Ext.ComponentQuery.query('#DataP')[0].getValue();
-                        console.log(dataAct);
-                        console.log(dataPick);
                         if (dataPick <= dataAct){
                             var store = Ext.data.StoreManager.lookup('StoreDadesP');
                             var var1 = Ext.ComponentQuery.query('#DataP')[0].getValue();
@@ -207,8 +205,6 @@ Ext.define('RegCr.view.PanelPrincipal', {
                     handler: function(){
                         var dataAct = new Date(new Date().getFullYear(),new Date().getMonth(),new Date().getDate());
                         var dataPick = Ext.ComponentQuery.query('#Data')[0].getValue();
-                        console.log(dataAct);
-                        console.log(dataPick);
                         if (dataPick <= dataAct){
                             var store = Ext.data.StoreManager.lookup('StoreDadesG');
                             var var1 = Ext.ComponentQuery.query('#Data')[0].getValue();
@@ -226,7 +222,6 @@ Ext.define('RegCr.view.PanelPrincipal', {
         else if (record.get('text')=='Dades Pacient'){
             var tabPanel= Ext.create('RegCr.view.DadesPanel');
             var store = Ext.data.StoreManager.lookup('dadesPacient');
-            //console.log('Load data into dadesPacient form');
             if (store.getCount() > 0){
                 var data = store.getAt(0);
                 console.log(data.get('Codi'));

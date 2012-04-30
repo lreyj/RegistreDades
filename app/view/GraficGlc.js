@@ -27,9 +27,15 @@ Ext.define("RegCr.view.GraficGlc", {
             gesture: 'tap',
             listeners: {
                 show: function (interaction, item, panel) {
-                    RegCr.popup(item, panel);
-                }
-            }
+					var record = item.storeItem;
+					panel.setHtml(
+						'<b>' + record.get('Data').toDateString() + ':</b>' +
+						'<ul>' +
+							'<li>Glucosa: ' + record.get('Glucosa') + '</li>' +
+						'</ul>'
+					);
+				}
+			}
         }],
         animate: true,
         store: 'StoreDadesG',

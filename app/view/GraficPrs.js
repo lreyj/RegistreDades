@@ -27,7 +27,15 @@ Ext.define('RegCr.view.GraficPrs', {
             gesture: 'tap',
             listeners: {
                 show: function (interaction, item, panel) {
-                    RegCr.popup(item, panel);
+					var record = item.storeItem;
+					panel.setHtml(
+						'<b>' + record.get('Data').toDateString() + ':</b>' +
+						'<ul>' +
+							'<li>Min: ' + record.get('minima') + '</li>' +
+							'<li>Max: ' + record.get('maxima') + '</li>' +
+							'<li>Pols: ' + record.get('pulsacions') + '</li>' +
+						'</ul>'
+					);
                 }
             }
         }],
