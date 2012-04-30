@@ -21,8 +21,6 @@ Ext.define('RegCr.view.PanelPrincipal', {
         ui: 'light',
         defaultBackButtonText: 'Tornar',
         navigationBar: {
-            height: 38,
-            hidden: true,
             id: 'navbar',
             itemId: 'navbarpr'
         },
@@ -37,8 +35,13 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 delegate: '#mynestedlist'
             },
             {
-                fn: 'onMynestedlistShow',
-                event: 'show',
+                fn: 'onMynestedlistWidthChange',
+                event: 'widthchange',
+                delegate: '#mynestedlist'
+            },
+            {
+                fn: 'onMynestedlistBack',
+                event: 'back',
                 delegate: '#mynestedlist'
             }
         ],
@@ -49,7 +52,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
                 itemId: 'mynestedlist',
                 onItemDisclosure: true,
                 store: 'MenuList',
-                title: 'Registre cr&ograve;nics',
+                title: 'Inici',
                 toolbar: {
                     xtype: 'toolbar'
                 }
@@ -58,14 +61,19 @@ Ext.define('RegCr.view.PanelPrincipal', {
     },
 
     onNavigationviewShow: function(component, options) {
+        Ext.ComponentQuery.query('#navbar')[0].titleComponent.setTitle('Registre cr&ograve;nics');
+        Ext.ComponentQuery.query('#navbar')[0].titleComponent.setMinWidth(200);
         var store = Ext.data.StoreManager.lookup('dadesPacient');
         if (store.getCount() === 0){
             Ext.Msg.alert('Atenció!','Per tal de poder utilitzar l\'aplicatiu, ha d\'introduïr algunes dades.', Ext.emptyFn);
             var dades = Ext.create('RegCr.view.DadesPanel', {fullscreen: true});
-            Ext.ComponentQuery.query('#navbar')[0].setHidden(false);
+            //Ext.ComponentQuery.query('#navbar')[0].setHidden(false);
             this.push(dades);
         }
-        else {Ext.ComponentQuery.query('#navbar')[0].setHidden(true);}
+        else {
+            //Ext.ComponentQuery.query('#navbar')[0].setHidden(true);
+        }
+
     },
 
     onMynestedlistLeafItemTap: function(nestedlist, list, index, target, record, e, options) {
@@ -241,13 +249,17 @@ Ext.define('RegCr.view.PanelPrincipal', {
         else if (record.get('text')=='Gr&agrave;fica de Glucosa'){
             var tabPanel= Ext.create('RegCr.view.GraficGlc');
         }
-        Ext.ComponentQuery.query('#navbar')[0].setHidden(false);
+        //Ext.ComponentQuery.query('#navbar')[0].setHidden(false);
         this.push(tabPanel);
 
     },
 
-    onMynestedlistShow: function(component, options) {
-        Ext.ComponentQuery.query('#navbar')[0].setHidden(true);
+    onMynestedlistWidthChange: function(component, value, oldValue, options) {
+        Ext.ComponentQuery.query('#navbar')[0].titleComponent.setWidth(200);
+    },
+
+    onMynestedlistBack: function(nestedlist, node, lastActiveList, detailCardActive, options) {
+        Ext.ComponentQuery.query('#navbar')[0].titleComponent.setTitle('Registre cr&ograve;nics');
     }
 
 });
