@@ -5,11 +5,8 @@
 	 * This is the name of your application, which is displayed on the device when the app is installed. On IOS, this should match
 	 * the name of your application in the Apple Provisioning Portal.
 	 */
-<<<<<<< HEAD
+
 	"applicationName":"RegistreDades",
-=======
-	"applicationName":"My Application",
->>>>>>> dfe3da39e17019242c9a176bd03ffb9f7bfb1239
 
 	/**
 	 * @cfg {String} applicationId
@@ -41,22 +38,17 @@
 	 * @required
 	 * This is location of your Sencha Touch 2 application, relative to this configuration file.
 	 */
-<<<<<<< HEAD
+
 	"inputPath":"C:\\xampp\\htdocs\\touch\\RegistreDades",
-=======
-	"inputPath":"./",
->>>>>>> dfe3da39e17019242c9a176bd03ffb9f7bfb1239
 
 	/**
 	 * @cfg {String} outputPath
 	 * @required
 	 * This is where the built application file with be saved.
 	 */
-<<<<<<< HEAD
+
 	"outputPath":"C:\\build/",
-=======
-	"outputPath":"build/",
->>>>>>> dfe3da39e17019242c9a176bd03ffb9f7bfb1239
+
 
 	/**
 	 * @cfg {String} configuration
@@ -75,11 +67,9 @@
 	 *  - Android
 	 *  - AndroidEmulator
 	 */
-<<<<<<< HEAD
+
 	"platform":"Android",
-=======
-	"platform":"iOSSimulator",
->>>>>>> dfe3da39e17019242c9a176bd03ffb9f7bfb1239
+
 
 	/**
 	 * @cfg {String} deviceType
@@ -100,11 +90,9 @@
 	 * This is the location of your certificate.
 	 * This is required when you are developing for Android or you are developing on Windows.
 	 */
-<<<<<<< HEAD
+
 	"certificatePath":"E:\\Android\\lrey.keystore",
-=======
-	"certificatePath":"/path/to/certificate.file",
->>>>>>> dfe3da39e17019242c9a176bd03ffb9f7bfb1239
+
 
 	/**
 	 * @cfg {String} certificateAlias
@@ -122,11 +110,9 @@
 	 * @cfg {String} sdkPath
 	 * This is the path to the Android SDK, if you are developing an Android application.
 	 */
-<<<<<<< HEAD
+
 	"sdkPath":"E:\\Android\\android-sdk",
-=======
-	"sdkPath":"/path/to/android-sdk",
->>>>>>> dfe3da39e17019242c9a176bd03ffb9f7bfb1239
+
 
 	/**
 	/**
@@ -134,11 +120,9 @@
 	 * This is android API level, the version of Android SDK to use, you can read more about it here: http://developer.android.com/guide/appendix/api-levels.html.
 	 * Be sure to install corresponding platform API in android SDK manager (android_sdk/tools/android)
 	 */
-<<<<<<< HEAD
+
 	"androidAPILevel":"10",
-=======
-	"androidAPILevel":"7",
->>>>>>> dfe3da39e17019242c9a176bd03ffb9f7bfb1239
+
 
 	/**
 	 * @cfg {Array[String]} orientations
