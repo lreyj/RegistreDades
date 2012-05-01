@@ -45,8 +45,8 @@ Ext.application({
     launch: function() {
 
         Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});  
-
-
+        Ext.ComponentQuery.query('#navbar')[0].titleComponent.setTitle('Registre cr&ograve;nics');
+        Ext.ComponentQuery.query('#navbar')[0].titleComponent.setMinWidth(200);
     }
 
 });

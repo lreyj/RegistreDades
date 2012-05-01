@@ -148,6 +148,22 @@
                 "app/view/LlistaPrs.js"
             ],
             "className": "LlistaPrs"
+        },
+        "da6dc6d8-97c3-4421-a677-6adf70a9c041": {
+            "paths": [
+                "metadata/view/HistPressio",
+                "app/view/override/HistPressio.js",
+                "app/view/HistPressio.js"
+            ],
+            "className": "HistPressio"
+        },
+        "21a7f4e6-1a85-48b2-8a91-f2344e80fddd": {
+            "paths": [
+                "metadata/view/HistGlucosa",
+                "app/view/override/HistGlucosa.js",
+                "app/view/HistGlucosa.js"
+            ],
+            "className": "HistGlucosa"
         }
     },
     "expandedState": {
