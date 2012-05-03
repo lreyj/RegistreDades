@@ -171,7 +171,7 @@ Ext.define('RegCr.view.PanelPrincipal', {
         }
         else if (record.get('text')=='Registrar Glucosa'){
             var tabPanel= Ext.create('Ext.Panel', {
-                title: 'Registre de Pressi&oacute;',
+                title: 'Registre de Glucosa',
                 items: [
                 {
                     xtype:'datepickerfield',
