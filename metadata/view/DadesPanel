@@ -13,7 +13,7 @@
     "customConfigs": [],
     "designerId": "cfe17ddd-a43a-4f99-be73-c7999dd71378",
     "$viewOrder": 1,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen6367",
@@ -29,7 +29,7 @@
                 "designer|userClassName": "MyFieldSet"
             },
             "customConfigs": [],
-            "expanded": true,
+            "expanded": false,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen6376",

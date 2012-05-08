@@ -133,30 +133,6 @@
             ],
             "className": "PLlistaGlc"
         },
-        "cf18b016-e5f5-4c54-a020-64f534be18c5": {
-            "paths": [
-                "metadata/view/LlistaGlc",
-                "app/view/override/LlistaGlc.js",
-                "app/view/LlistaGlc.js"
-            ],
-            "className": "LlistaGlc"
-        },
-        "430ba9d0-26e4-4b86-a009-206cfcf785db": {
-            "paths": [
-                "metadata/view/LlistaPrs",
-                "app/view/override/LlistaPrs.js",
-                "app/view/LlistaPrs.js"
-            ],
-            "className": "LlistaPrs"
-        },
-        "da6dc6d8-97c3-4421-a677-6adf70a9c041": {
-            "paths": [
-                "metadata/view/HistPressio",
-                "app/view/override/HistPressio.js",
-                "app/view/HistPressio.js"
-            ],
-            "className": "HistPressio"
-        },
         "21a7f4e6-1a85-48b2-8a91-f2344e80fddd": {
             "paths": [
                 "metadata/view/HistGlucosa",

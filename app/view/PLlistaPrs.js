@@ -18,10 +18,12 @@ Ext.define('RegCr.view.PLlistaPrs', {
 
     config: {
         id: 'PLlistaPrs',
+        layout: {
+            type: 'fit'
+        },
         items: [
             {
                 xtype: 'list',
-                height: 478,
                 id: 'ListaPressio',
                 itemTpl: [
                     '<div>{Data:date("d/m/Y")} - Min: {minima} - Max: {maxima} -Pols: {pulsacions}</div>'

@@ -8,12 +8,13 @@
     "codeClass": null,
     "userConfig": {
         "id": "PLlistaPrs",
+        "layout": "fit",
         "designer|userClassName": "PLlistaPrs"
     },
     "customConfigs": [],
     "designerId": "220a4407-8caa-4dbc-bb4e-201fbd5559e7",
-    "$viewOrder": 7,
-    "expanded": false,
+    "$viewOrder": 4,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen8280",
@@ -24,7 +25,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "height": 478,
+                "height": null,
                 "id": "ListaPressio",
                 "itemTpl": "<div>{Data:date(\"d/m/Y\")} - Min: {minima} - Max: {maxima} -Pols: {pulsacions}</div>",
                 "store": "StoreDadesP",

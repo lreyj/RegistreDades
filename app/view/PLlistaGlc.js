@@ -18,10 +18,12 @@ Ext.define('RegCr.view.PLlistaGlc', {
 
     config: {
         id: 'PLlistaGlc',
+        layout: {
+            type: 'fit'
+        },
         items: [
             {
                 xtype: 'list',
-                height: 478,
                 id: 'LisGluc',
                 layout: {
                     type: 'fit'
