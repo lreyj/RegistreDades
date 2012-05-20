@@ -53,9 +53,9 @@ Ext.define('RegCr.view.DadesPanel', {
                     },
                     {
                         xtype: 'button',
-                        id: 'Grabar',
+                        id: 'Desar',
                         itemId: 'mybutton',
-                        text: 'Grabar'
+                        text: 'Desar'
                     }
                 ]
             }
@@ -69,7 +69,7 @@ Ext.define('RegCr.view.DadesPanel', {
             {
                 fn: 'onGrabarTap',
                 event: 'tap',
-                delegate: '#Grabar'
+                delegate: '#Desar'
             }
         ]
     },

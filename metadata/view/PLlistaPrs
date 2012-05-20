@@ -45,7 +45,16 @@
                     "codeClass": null,
                     "userConfig": {
                         "fn": "onListaPressioItemTap",
-                        "implHandler": "var store = Ext.data.StoreManager.lookup('StoreDadesP');\r\nExt.Msg.confirm('¿Vols esborrar aquest registre?',null,function(btn){\r\n    if (btn=='yes'){\r\n        store.remove(record); \r\n        store.sync();\r\n    }\r\n});\r\n",
+                        "implHandler": [
+                            "var store = Ext.data.StoreManager.lookup('StoreDadesP');\r",
+                            "Ext.Msg.confirm('¿Vols esborrar aquest registre?',null,function(btn){\r",
+                            "    if (btn=='yes'){\r",
+                            "        store.remove(record); \r",
+                            "        store.sync();\r",
+                            "    }\r",
+                            "});\r",
+                            ""
+                        ],
                         "name": "itemtap",
                         "designer|userClassName": "onListaPressioItemTap"
                     },

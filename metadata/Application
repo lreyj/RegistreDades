@@ -47,7 +47,12 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "launch",
-                "implHandler": "\r\nExt.create('RegCr.view.PanelPrincipal', {fullscreen: true});  \r\nExt.ComponentQuery.query('#navbar')[0].titleComponent.setTitle('Registre cr&ograve;nics');\r\nExt.ComponentQuery.query('#navbar')[0].titleComponent.setMinWidth(200);",
+                "implHandler": [
+                    "\r",
+                    "Ext.create('RegCr.view.PanelPrincipal', {fullscreen: true});  \r",
+                    "Ext.ComponentQuery.query('#navbar')[0].titleComponent.setTitle('Registre cr&ograve;nics');\r",
+                    "Ext.ComponentQuery.query('#navbar')[0].titleComponent.setMinWidth(200);"
+                ],
                 "designer|userClassName": "launch"
             },
             "customConfigs": [],

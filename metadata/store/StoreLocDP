@@ -63,7 +63,11 @@
                             "first",
                             "second"
                         ],
-                        "implHandler": "var v1 = new Date(first.data.Data);\nvar v2 = new Date(second.data.Data);\nreturn v1 > v2 ? 1 : (v1 < v2 ? -1 : 0);",
+                        "implHandler": [
+                            "var v1 = new Date(first.data.Data);",
+                            "var v2 = new Date(second.data.Data);",
+                            "return v1 > v2 ? 1 : (v1 < v2 ? -1 : 0);"
+                        ],
                         "designer|userClassName": "sorterFn"
                     },
                     "customConfigs": [],

@@ -2,11 +2,10 @@
     "name": "RegistreDades",
     "settings": {
         "urlPrefix": "http://localhost/touch/registredades",
-        "directAPI": "",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
         "exportPath": "C:/xampp/htdocs/touch/StoreTest",
-        "extPath": "http://extjs.cachefly.net/touch/sencha-touch-2.0.0/",
+        "extPath": "http://extjs.cachefly.net/touch/sencha-touch-2.0.1/",
         "senchaIoKey": "",
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
         "lineEnding": "CRLF",
@@ -18,7 +17,7 @@
         "cssPath": ""
     },
     "xdsVersion": "2.0.0",
-    "xdsBuild": "412",
+    "xdsBuild": "442",
     "framework": "touch20",
     "topInstanceFileMap": {
         "23189ef6-78fd-4c29-8fc8-12fd37bbfdb3": {
