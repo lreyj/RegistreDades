@@ -18,7 +18,6 @@ Ext.define('RegCr.view.PLlistaPrs', {
 
     config: {
         id: 'PLlistaPrs',
-		title: 'Hist&ograve;ric de Pressi&oacute;',
         layout: {
             type: 'fit'
         },

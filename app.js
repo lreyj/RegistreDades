@@ -38,6 +38,7 @@ Ext.application({
         'PLlistaPrs',
         'PLlistaGlc'
     ],
+    icon: 'icon.png',
     name: 'RegCr',
     phoneStartupScreen: 'phone_startup.png',
     tabletStartupScreen: 'tablet_startup.png',

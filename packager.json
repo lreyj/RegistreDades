@@ -12,7 +12,7 @@
 	 * @cfg {String} applicationId
 	 * This is the name namespace for your application. On IOS, this should match the name of your application in the Apple Provisioning Portal.
 	 */
-	"applicationId":"com.mycompany.myAppID",
+	"applicationId":"com.UOC.RecCr",
 
 	/**
 	 * @cfg {String} versionString
