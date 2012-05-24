@@ -18,6 +18,7 @@ Ext.define('RegCr.view.PLlistaGlc', {
 
     config: {
         id: 'PLlistaGlc',
+		title: 'Hist&ograve;ric de Glucosa',
         layout: {
             type: 'fit'
         },
