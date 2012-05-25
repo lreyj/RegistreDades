@@ -46,13 +46,18 @@ Ext.define('RegCr.view.PLlistaGlc', {
 
     onLisGlucItemTap: function(dataview, index, target, record, e, options) {
         var store = Ext.data.StoreManager.lookup('StoreDadesG');
-        Ext.Msg.confirm('¿Vols esborrar aquest registre?',null,function(btn){
-            if (btn=='yes'){
-                store.remove(record); 
-                store.sync();
-            }
-        });
-
+		Ext.Msg.show({
+		   title: 'Alerta',
+		   message: '¿Segur que vol esborrar el registre?',
+		   width: 300,
+		   buttons: [{text:'No'}, {text:'Si'}],
+		   fn: function(buttonId) {
+				if (buttonId=='Si'){
+					store.remove(record); 
+					store.sync();
+				}
+		   }
+		});
     }
 
 });
